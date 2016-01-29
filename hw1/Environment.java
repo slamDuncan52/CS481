@@ -10,6 +10,7 @@ public class Environment
    private int[] accidentLocation = new int[2];
    private int[] carLocation = new int[2];
    private int bump = 0;//Flag if the car hits a border
+   private int bumpCount = 0; //The number of bumps
    private int accidentReached = 0;//Flag if the car moves into the accident spot
    private int time = 0;//Ticks in minutes
    private int carDir = 0; //0 for E, 1 for N, 2 for W, 3 for S
@@ -82,24 +83,28 @@ Author: Mitchell Duncan
          if(carLocation[0] > gridSize)//If we moved too far east
          {
             bump = 1;
+            bumpCount++;
             carLocation[0] = gridSize;
             time += 10;
          }
          else if(carLocation[1] > gridSize)//If we moved too far north
          {
             bump = 1;
+            bumpCount++;
             carLocation[1] = gridSize;
             time += 10;
          }
          else if(carLocation[0] < 0)//If we moved too far west
          {
             bump = 1;
+            bumpCount++;
             carLocation[0] = 0;
             time += 10;
          }
          else if(carLocation[1] < 0)//If we moved too far south
          {
             bump = 1;
+            bumpCount++;
             carLocation[1] = 0;
             time += 10;
          }
@@ -159,17 +164,21 @@ Author: Mitchell Duncan
 /*
 stop
 input: none
-output: If at the accident, the final time, if not, a -1
+output: If at the accident, the final time and bump number, if not, -1s
 No action is taken, merely checks if the current location is the accident location
 Author: Mitchell Duncan
 */        
-   public int stop()
+   public int[] stop()
    {
+      int[] results = new int[2];
+      results[0] = results[1] = -1;
       if(accidentReached == 1)//If we stopped in the accident space, return the number of minutes
       {
-         return time;
+         results[0] = time;
+         results[1] = bumpCount;
+         return results;
       }
-      return -1;//Otherwise, return fail value
+      return results;//Otherwise, return fail value
    }
 /*
 waitAtSignal

@@ -13,6 +13,7 @@ public class CarAgent
    int spiralSide = -1;//Helper var to assist in incrementing spiralLevel
    int distance = 0;//Distance traveled in this arm of the spiral
    int[] perceptArray = new int[5];
+   int[] results = new int[2];//Holds minutes and # of bumps at finish
    int carDir = 0; //0 for E, 1 for N, 2 for W, 3 for S
    Environment myEnv;
    
@@ -43,10 +44,10 @@ Author: Mitchell Duncan
          myEnv.goStraight(false);
          myEnv.waitAtSignal();//Wait after every move for the lights to change
          perceptArray = myEnv.getPercepts();//Check if we found the accident at each location
-         if(perceptArray[4] == 1)
+         if(perceptArray[4] == 1)//If we did, print so
          {
-            int finalTime = myEnv.stop();
-            System.out.println("Reached Destination in " + finalTime + " minutes.");
+            results = myEnv.stop();
+            System.out.println("Reached Destination in " + results[0] + " minutes with " + results[1] + " bumps.");
             return true;
          }
          else if(perceptArray[2] == 1)//We bumped!
@@ -64,8 +65,8 @@ Author: Mitchell Duncan
          perceptArray = myEnv.getPercepts();//Check if the accident is here
          if(perceptArray[4] == 1)
          {
-            int finalTime = myEnv.stop();
-            System.out.println("Reached Destination in " + finalTime + " minutes.");
+            results = myEnv.stop();
+            System.out.println("Reached Destination in " + results[0] + " minutes with " + results[1] + " bumps.");
             return true;
          }
          distance = 0;//Reset distance along this arm
@@ -78,8 +79,8 @@ Author: Mitchell Duncan
             perceptArray = myEnv.getPercepts();
             if(perceptArray[4] == 1)
             {
-               int finalTime = myEnv.stop();
-               System.out.println("Reached Destination in " + finalTime + " minutes.");
+               results = myEnv.stop();
+            System.out.println("Reached Destination in " + results[0] + " minutes with " + results[1] + " bumps.");
                return true;
             }
             distance++;
@@ -122,8 +123,8 @@ Author: Mitchell Duncan
          perceptArray = myEnv.getPercepts();//After the action, check if the accident is here
          if(perceptArray[4] == 1)
          {
-            int finalTime = myEnv.stop();
-            System.out.println("Reached Destination in " + finalTime + " minutes.");
+            results = myEnv.stop();
+            System.out.println("Reached Destination in " + results[0] + " minutes with " + results[1] + " bumps.");
             accidentFound = true;
          }
       
