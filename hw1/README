@@ -1,0 +1,13 @@
+Mitchell Duncan - Assignment 1
+
+COMPILATION
+Driver.java is the root file of the program, so "javac Driver.java" is sufficient to compile the whole thing
+
+RUNNING
+Run "java Driver" and you'll be prompted to enter either "p" or "r".
+I didn't really put any serious input handling in this, so anything besides p or r and the program just exits.
+
+The accident location is randomly decided at runtime, but if you choose, you can edit Driver.java line 35
+and change xLoc,yLoc to numbers of your choosing within the gridsize. The gridsize can be edited at line 10.
+
+To get verbose movement logging, just pass -d, ala "java Driver -d"

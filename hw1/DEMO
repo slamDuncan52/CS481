@@ -1,0 +1,3106 @@
+-----RUN 1-----
+➜  hw1 git:(master) ✗ java Driver -d
+Welcome to the cop find simulator! The accident is at: 7,2
+Please enter 'p' for a planned path or 'r' for a random path: 
+p
+Time  Car Location  Car Direction  Green Light Direction  Move Chosen
+0        0,0            East            E-W     Go Straight
+3        1,0            East            N-S     Wait at Light
+4        1,0            East            E-W     Go Straight
+7        2,0            East            N-S     Wait at Light
+8        2,0            East            E-W     Go Straight
+11        3,0            East            N-S     Wait at Light
+12        3,0            East            E-W     Go Straight
+15        4,0            East            N-S     Wait at Light
+16        4,0            East            E-W     Go Straight
+19        5,0            East            N-S     Wait at Light
+20        5,0            East            E-W     Go Straight
+23        6,0            East            N-S     Wait at Light
+24        6,0            East            E-W     Go Straight
+27        7,0            East            N-S     Wait at Light
+28        7,0            East            E-W     Go Straight
+31        8,0            East            N-S     Wait at Light
+32        8,0            East            E-W     Go Straight
+35        9,0            East            N-S     Wait at Light
+36        9,0            East            E-W     Go Straight
+39        10,0            East            N-S     Wait at Light
+40        10,0            East            E-W     Go Straight
+53        10,0            East            N-S     Wait at Light
+54        10,0            East            E-W     Turn Left
+55        10,0            North            N-S     Go Straight
+58        10,1            North            E-W     Wait at Light
+59        10,1            North            N-S     Go Straight
+62        10,2            North            E-W     Wait at Light
+63        10,2            North            N-S     Go Straight
+66        10,3            North            E-W     Wait at Light
+67        10,3            North            N-S     Go Straight
+70        10,4            North            E-W     Wait at Light
+71        10,4            North            N-S     Go Straight
+74        10,5            North            E-W     Wait at Light
+75        10,5            North            N-S     Go Straight
+78        10,6            North            E-W     Wait at Light
+79        10,6            North            N-S     Go Straight
+82        10,7            North            E-W     Wait at Light
+83        10,7            North            N-S     Go Straight
+86        10,8            North            E-W     Wait at Light
+87        10,8            North            N-S     Go Straight
+90        10,9            North            E-W     Wait at Light
+91        10,9            North            N-S     Go Straight
+94        10,10            North            E-W     Wait at Light
+95        10,10            North            N-S     Turn Left
+96        10,10            West            E-W     Go Straight
+99        9,10            West            N-S     Wait at Light
+100        9,10            West            E-W     Go Straight
+103        8,10            West            N-S     Wait at Light
+104        8,10            West            E-W     Go Straight
+107        7,10            West            N-S     Wait at Light
+108        7,10            West            E-W     Go Straight
+111        6,10            West            N-S     Wait at Light
+112        6,10            West            E-W     Go Straight
+115        5,10            West            N-S     Wait at Light
+116        5,10            West            E-W     Go Straight
+119        4,10            West            N-S     Wait at Light
+120        4,10            West            E-W     Go Straight
+123        3,10            West            N-S     Wait at Light
+124        3,10            West            E-W     Go Straight
+127        2,10            West            N-S     Wait at Light
+128        2,10            West            E-W     Go Straight
+131        1,10            West            N-S     Wait at Light
+132        1,10            West            E-W     Go Straight
+135        0,10            West            N-S     Wait at Light
+136        0,10            West            E-W     Turn Left
+137        0,10            South            N-S     Go Straight
+140        0,9            South            E-W     Wait at Light
+141        0,9            South            N-S     Go Straight
+144        0,8            South            E-W     Wait at Light
+145        0,8            South            N-S     Go Straight
+148        0,7            South            E-W     Wait at Light
+149        0,7            South            N-S     Go Straight
+152        0,6            South            E-W     Wait at Light
+153        0,6            South            N-S     Go Straight
+156        0,5            South            E-W     Wait at Light
+157        0,5            South            N-S     Go Straight
+160        0,4            South            E-W     Wait at Light
+161        0,4            South            N-S     Go Straight
+164        0,3            South            E-W     Wait at Light
+165        0,3            South            N-S     Go Straight
+168        0,2            South            E-W     Wait at Light
+169        0,2            South            N-S     Go Straight
+172        0,1            South            E-W     Wait at Light
+173        0,1            South            N-S     Turn Left
+174        0,1            East            E-W     Go Straight
+177        1,1            East            N-S     Wait at Light
+178        1,1            East            E-W     Go Straight
+181        2,1            East            N-S     Wait at Light
+182        2,1            East            E-W     Go Straight
+185        3,1            East            N-S     Wait at Light
+186        3,1            East            E-W     Go Straight
+189        4,1            East            N-S     Wait at Light
+190        4,1            East            E-W     Go Straight
+193        5,1            East            N-S     Wait at Light
+194        5,1            East            E-W     Go Straight
+197        6,1            East            N-S     Wait at Light
+198        6,1            East            E-W     Go Straight
+201        7,1            East            N-S     Wait at Light
+202        7,1            East            E-W     Go Straight
+205        8,1            East            N-S     Wait at Light
+206        8,1            East            E-W     Go Straight
+209        9,1            East            N-S     Wait at Light
+210        9,1            East            E-W     Turn Left
+211        9,1            North            N-S     Go Straight
+214        9,2            North            E-W     Wait at Light
+215        9,2            North            N-S     Go Straight
+218        9,3            North            E-W     Wait at Light
+219        9,3            North            N-S     Go Straight
+222        9,4            North            E-W     Wait at Light
+223        9,4            North            N-S     Go Straight
+226        9,5            North            E-W     Wait at Light
+227        9,5            North            N-S     Go Straight
+230        9,6            North            E-W     Wait at Light
+231        9,6            North            N-S     Go Straight
+234        9,7            North            E-W     Wait at Light
+235        9,7            North            N-S     Go Straight
+238        9,8            North            E-W     Wait at Light
+239        9,8            North            N-S     Go Straight
+242        9,9            North            E-W     Wait at Light
+243        9,9            North            N-S     Turn Left
+244        9,9            West            E-W     Go Straight
+247        8,9            West            N-S     Wait at Light
+248        8,9            West            E-W     Go Straight
+251        7,9            West            N-S     Wait at Light
+252        7,9            West            E-W     Go Straight
+255        6,9            West            N-S     Wait at Light
+256        6,9            West            E-W     Go Straight
+259        5,9            West            N-S     Wait at Light
+260        5,9            West            E-W     Go Straight
+263        4,9            West            N-S     Wait at Light
+264        4,9            West            E-W     Go Straight
+267        3,9            West            N-S     Wait at Light
+268        3,9            West            E-W     Go Straight
+271        2,9            West            N-S     Wait at Light
+272        2,9            West            E-W     Go Straight
+275        1,9            West            N-S     Wait at Light
+276        1,9            West            E-W     Turn Left
+277        1,9            South            N-S     Go Straight
+280        1,8            South            E-W     Wait at Light
+281        1,8            South            N-S     Go Straight
+284        1,7            South            E-W     Wait at Light
+285        1,7            South            N-S     Go Straight
+288        1,6            South            E-W     Wait at Light
+289        1,6            South            N-S     Go Straight
+292        1,5            South            E-W     Wait at Light
+293        1,5            South            N-S     Go Straight
+296        1,4            South            E-W     Wait at Light
+297        1,4            South            N-S     Go Straight
+300        1,3            South            E-W     Wait at Light
+301        1,3            South            N-S     Go Straight
+304        1,2            South            E-W     Wait at Light
+305        1,2            South            N-S     Turn Left
+306        1,2            East            E-W     Go Straight
+309        2,2            East            N-S     Wait at Light
+310        2,2            East            E-W     Go Straight
+313        3,2            East            N-S     Wait at Light
+314        3,2            East            E-W     Go Straight
+317        4,2            East            N-S     Wait at Light
+318        4,2            East            E-W     Go Straight
+321        5,2            East            N-S     Wait at Light
+322        5,2            East            E-W     Go Straight
+325        6,2            East            N-S     Wait at Light
+326        6,2            East            E-W     Go Straight
+329        7,2            East            N-S     Wait at Light
+Reached Destination in 330 minutes with 1 bumps.
+-----END RUN 1-----
+
+-----RUN 2-----
+➜  hw1 git:(master) ✗ java Driver -d
+Welcome to the cop find simulator! The accident is at: 7,7
+Please enter 'p' for a planned path or 'r' for a random path: 
+p
+Time  Car Location  Car Direction  Green Light Direction  Move Chosen
+0        0,0            East            E-W     Go Straight
+3        1,0            East            N-S     Wait at Light
+4        1,0            East            E-W     Go Straight
+7        2,0            East            N-S     Wait at Light
+8        2,0            East            E-W     Go Straight
+11        3,0            East            N-S     Wait at Light
+12        3,0            East            E-W     Go Straight
+15        4,0            East            N-S     Wait at Light
+16        4,0            East            E-W     Go Straight
+19        5,0            East            N-S     Wait at Light
+20        5,0            East            E-W     Go Straight
+23        6,0            East            N-S     Wait at Light
+24        6,0            East            E-W     Go Straight
+27        7,0            East            N-S     Wait at Light
+28        7,0            East            E-W     Go Straight
+31        8,0            East            N-S     Wait at Light
+32        8,0            East            E-W     Go Straight
+35        9,0            East            N-S     Wait at Light
+36        9,0            East            E-W     Go Straight
+39        10,0            East            N-S     Wait at Light
+40        10,0            East            E-W     Go Straight
+53        10,0            East            N-S     Wait at Light
+54        10,0            East            E-W     Turn Left
+55        10,0            North            N-S     Go Straight
+58        10,1            North            E-W     Wait at Light
+59        10,1            North            N-S     Go Straight
+62        10,2            North            E-W     Wait at Light
+63        10,2            North            N-S     Go Straight
+66        10,3            North            E-W     Wait at Light
+67        10,3            North            N-S     Go Straight
+70        10,4            North            E-W     Wait at Light
+71        10,4            North            N-S     Go Straight
+74        10,5            North            E-W     Wait at Light
+75        10,5            North            N-S     Go Straight
+78        10,6            North            E-W     Wait at Light
+79        10,6            North            N-S     Go Straight
+82        10,7            North            E-W     Wait at Light
+83        10,7            North            N-S     Go Straight
+86        10,8            North            E-W     Wait at Light
+87        10,8            North            N-S     Go Straight
+90        10,9            North            E-W     Wait at Light
+91        10,9            North            N-S     Go Straight
+94        10,10            North            E-W     Wait at Light
+95        10,10            North            N-S     Turn Left
+96        10,10            West            E-W     Go Straight
+99        9,10            West            N-S     Wait at Light
+100        9,10            West            E-W     Go Straight
+103        8,10            West            N-S     Wait at Light
+104        8,10            West            E-W     Go Straight
+107        7,10            West            N-S     Wait at Light
+108        7,10            West            E-W     Go Straight
+111        6,10            West            N-S     Wait at Light
+112        6,10            West            E-W     Go Straight
+115        5,10            West            N-S     Wait at Light
+116        5,10            West            E-W     Go Straight
+119        4,10            West            N-S     Wait at Light
+120        4,10            West            E-W     Go Straight
+123        3,10            West            N-S     Wait at Light
+124        3,10            West            E-W     Go Straight
+127        2,10            West            N-S     Wait at Light
+128        2,10            West            E-W     Go Straight
+131        1,10            West            N-S     Wait at Light
+132        1,10            West            E-W     Go Straight
+135        0,10            West            N-S     Wait at Light
+136        0,10            West            E-W     Turn Left
+137        0,10            South            N-S     Go Straight
+140        0,9            South            E-W     Wait at Light
+141        0,9            South            N-S     Go Straight
+144        0,8            South            E-W     Wait at Light
+145        0,8            South            N-S     Go Straight
+148        0,7            South            E-W     Wait at Light
+149        0,7            South            N-S     Go Straight
+152        0,6            South            E-W     Wait at Light
+153        0,6            South            N-S     Go Straight
+156        0,5            South            E-W     Wait at Light
+157        0,5            South            N-S     Go Straight
+160        0,4            South            E-W     Wait at Light
+161        0,4            South            N-S     Go Straight
+164        0,3            South            E-W     Wait at Light
+165        0,3            South            N-S     Go Straight
+168        0,2            South            E-W     Wait at Light
+169        0,2            South            N-S     Go Straight
+172        0,1            South            E-W     Wait at Light
+173        0,1            South            N-S     Turn Left
+174        0,1            East            E-W     Go Straight
+177        1,1            East            N-S     Wait at Light
+178        1,1            East            E-W     Go Straight
+181        2,1            East            N-S     Wait at Light
+182        2,1            East            E-W     Go Straight
+185        3,1            East            N-S     Wait at Light
+186        3,1            East            E-W     Go Straight
+189        4,1            East            N-S     Wait at Light
+190        4,1            East            E-W     Go Straight
+193        5,1            East            N-S     Wait at Light
+194        5,1            East            E-W     Go Straight
+197        6,1            East            N-S     Wait at Light
+198        6,1            East            E-W     Go Straight
+201        7,1            East            N-S     Wait at Light
+202        7,1            East            E-W     Go Straight
+205        8,1            East            N-S     Wait at Light
+206        8,1            East            E-W     Go Straight
+209        9,1            East            N-S     Wait at Light
+210        9,1            East            E-W     Turn Left
+211        9,1            North            N-S     Go Straight
+214        9,2            North            E-W     Wait at Light
+215        9,2            North            N-S     Go Straight
+218        9,3            North            E-W     Wait at Light
+219        9,3            North            N-S     Go Straight
+222        9,4            North            E-W     Wait at Light
+223        9,4            North            N-S     Go Straight
+226        9,5            North            E-W     Wait at Light
+227        9,5            North            N-S     Go Straight
+230        9,6            North            E-W     Wait at Light
+231        9,6            North            N-S     Go Straight
+234        9,7            North            E-W     Wait at Light
+235        9,7            North            N-S     Go Straight
+238        9,8            North            E-W     Wait at Light
+239        9,8            North            N-S     Go Straight
+242        9,9            North            E-W     Wait at Light
+243        9,9            North            N-S     Turn Left
+244        9,9            West            E-W     Go Straight
+247        8,9            West            N-S     Wait at Light
+248        8,9            West            E-W     Go Straight
+251        7,9            West            N-S     Wait at Light
+252        7,9            West            E-W     Go Straight
+255        6,9            West            N-S     Wait at Light
+256        6,9            West            E-W     Go Straight
+259        5,9            West            N-S     Wait at Light
+260        5,9            West            E-W     Go Straight
+263        4,9            West            N-S     Wait at Light
+264        4,9            West            E-W     Go Straight
+267        3,9            West            N-S     Wait at Light
+268        3,9            West            E-W     Go Straight
+271        2,9            West            N-S     Wait at Light
+272        2,9            West            E-W     Go Straight
+275        1,9            West            N-S     Wait at Light
+276        1,9            West            E-W     Turn Left
+277        1,9            South            N-S     Go Straight
+280        1,8            South            E-W     Wait at Light
+281        1,8            South            N-S     Go Straight
+284        1,7            South            E-W     Wait at Light
+285        1,7            South            N-S     Go Straight
+288        1,6            South            E-W     Wait at Light
+289        1,6            South            N-S     Go Straight
+292        1,5            South            E-W     Wait at Light
+293        1,5            South            N-S     Go Straight
+296        1,4            South            E-W     Wait at Light
+297        1,4            South            N-S     Go Straight
+300        1,3            South            E-W     Wait at Light
+301        1,3            South            N-S     Go Straight
+304        1,2            South            E-W     Wait at Light
+305        1,2            South            N-S     Turn Left
+306        1,2            East            E-W     Go Straight
+309        2,2            East            N-S     Wait at Light
+310        2,2            East            E-W     Go Straight
+313        3,2            East            N-S     Wait at Light
+314        3,2            East            E-W     Go Straight
+317        4,2            East            N-S     Wait at Light
+318        4,2            East            E-W     Go Straight
+321        5,2            East            N-S     Wait at Light
+322        5,2            East            E-W     Go Straight
+325        6,2            East            N-S     Wait at Light
+326        6,2            East            E-W     Go Straight
+329        7,2            East            N-S     Wait at Light
+330        7,2            East            E-W     Go Straight
+333        8,2            East            N-S     Wait at Light
+334        8,2            East            E-W     Turn Left
+335        8,2            North            N-S     Go Straight
+338        8,3            North            E-W     Wait at Light
+339        8,3            North            N-S     Go Straight
+342        8,4            North            E-W     Wait at Light
+343        8,4            North            N-S     Go Straight
+346        8,5            North            E-W     Wait at Light
+347        8,5            North            N-S     Go Straight
+350        8,6            North            E-W     Wait at Light
+351        8,6            North            N-S     Go Straight
+354        8,7            North            E-W     Wait at Light
+355        8,7            North            N-S     Go Straight
+358        8,8            North            E-W     Wait at Light
+359        8,8            North            N-S     Turn Left
+360        8,8            West            E-W     Go Straight
+363        7,8            West            N-S     Wait at Light
+364        7,8            West            E-W     Go Straight
+367        6,8            West            N-S     Wait at Light
+368        6,8            West            E-W     Go Straight
+371        5,8            West            N-S     Wait at Light
+372        5,8            West            E-W     Go Straight
+375        4,8            West            N-S     Wait at Light
+376        4,8            West            E-W     Go Straight
+379        3,8            West            N-S     Wait at Light
+380        3,8            West            E-W     Go Straight
+383        2,8            West            N-S     Wait at Light
+384        2,8            West            E-W     Turn Left
+385        2,8            South            N-S     Go Straight
+388        2,7            South            E-W     Wait at Light
+389        2,7            South            N-S     Go Straight
+392        2,6            South            E-W     Wait at Light
+393        2,6            South            N-S     Go Straight
+396        2,5            South            E-W     Wait at Light
+397        2,5            South            N-S     Go Straight
+400        2,4            South            E-W     Wait at Light
+401        2,4            South            N-S     Go Straight
+404        2,3            South            E-W     Wait at Light
+405        2,3            South            N-S     Turn Left
+406        2,3            East            E-W     Go Straight
+409        3,3            East            N-S     Wait at Light
+410        3,3            East            E-W     Go Straight
+413        4,3            East            N-S     Wait at Light
+414        4,3            East            E-W     Go Straight
+417        5,3            East            N-S     Wait at Light
+418        5,3            East            E-W     Go Straight
+421        6,3            East            N-S     Wait at Light
+422        6,3            East            E-W     Go Straight
+425        7,3            East            N-S     Wait at Light
+426        7,3            East            E-W     Turn Left
+427        7,3            North            N-S     Go Straight
+430        7,4            North            E-W     Wait at Light
+431        7,4            North            N-S     Go Straight
+434        7,5            North            E-W     Wait at Light
+435        7,5            North            N-S     Go Straight
+438        7,6            North            E-W     Wait at Light
+439        7,6            North            N-S     Go Straight
+442        7,7            North            E-W     Wait at Light
+Reached Destination in 443 minutes with 1 bumps.
+-----END RUN 2-----
+-----RUN 3-----
+➜  hw1 git:(master) ✗ java Driver -d
+Welcome to the cop find simulator! The accident is at: 5,7
+Please enter 'p' for a planned path or 'r' for a random path: 
+p
+Time  Car Location  Car Direction  Green Light Direction  Move Chosen
+0        0,0            East            E-W     Go Straight
+3        1,0            East            N-S     Wait at Light
+4        1,0            East            E-W     Go Straight
+7        2,0            East            N-S     Wait at Light
+8        2,0            East            E-W     Go Straight
+11        3,0            East            N-S     Wait at Light
+12        3,0            East            E-W     Go Straight
+15        4,0            East            N-S     Wait at Light
+16        4,0            East            E-W     Go Straight
+19        5,0            East            N-S     Wait at Light
+20        5,0            East            E-W     Go Straight
+23        6,0            East            N-S     Wait at Light
+24        6,0            East            E-W     Go Straight
+27        7,0            East            N-S     Wait at Light
+28        7,0            East            E-W     Go Straight
+31        8,0            East            N-S     Wait at Light
+32        8,0            East            E-W     Go Straight
+35        9,0            East            N-S     Wait at Light
+36        9,0            East            E-W     Go Straight
+39        10,0            East            N-S     Wait at Light
+40        10,0            East            E-W     Go Straight
+53        10,0            East            N-S     Wait at Light
+54        10,0            East            E-W     Turn Left
+55        10,0            North            N-S     Go Straight
+58        10,1            North            E-W     Wait at Light
+59        10,1            North            N-S     Go Straight
+62        10,2            North            E-W     Wait at Light
+63        10,2            North            N-S     Go Straight
+66        10,3            North            E-W     Wait at Light
+67        10,3            North            N-S     Go Straight
+70        10,4            North            E-W     Wait at Light
+71        10,4            North            N-S     Go Straight
+74        10,5            North            E-W     Wait at Light
+75        10,5            North            N-S     Go Straight
+78        10,6            North            E-W     Wait at Light
+79        10,6            North            N-S     Go Straight
+82        10,7            North            E-W     Wait at Light
+83        10,7            North            N-S     Go Straight
+86        10,8            North            E-W     Wait at Light
+87        10,8            North            N-S     Go Straight
+90        10,9            North            E-W     Wait at Light
+91        10,9            North            N-S     Go Straight
+94        10,10            North            E-W     Wait at Light
+95        10,10            North            N-S     Turn Left
+96        10,10            West            E-W     Go Straight
+99        9,10            West            N-S     Wait at Light
+100        9,10            West            E-W     Go Straight
+103        8,10            West            N-S     Wait at Light
+104        8,10            West            E-W     Go Straight
+107        7,10            West            N-S     Wait at Light
+108        7,10            West            E-W     Go Straight
+111        6,10            West            N-S     Wait at Light
+112        6,10            West            E-W     Go Straight
+115        5,10            West            N-S     Wait at Light
+116        5,10            West            E-W     Go Straight
+119        4,10            West            N-S     Wait at Light
+120        4,10            West            E-W     Go Straight
+123        3,10            West            N-S     Wait at Light
+124        3,10            West            E-W     Go Straight
+127        2,10            West            N-S     Wait at Light
+128        2,10            West            E-W     Go Straight
+131        1,10            West            N-S     Wait at Light
+132        1,10            West            E-W     Go Straight
+135        0,10            West            N-S     Wait at Light
+136        0,10            West            E-W     Turn Left
+137        0,10            South            N-S     Go Straight
+140        0,9            South            E-W     Wait at Light
+141        0,9            South            N-S     Go Straight
+144        0,8            South            E-W     Wait at Light
+145        0,8            South            N-S     Go Straight
+148        0,7            South            E-W     Wait at Light
+149        0,7            South            N-S     Go Straight
+152        0,6            South            E-W     Wait at Light
+153        0,6            South            N-S     Go Straight
+156        0,5            South            E-W     Wait at Light
+157        0,5            South            N-S     Go Straight
+160        0,4            South            E-W     Wait at Light
+161        0,4            South            N-S     Go Straight
+164        0,3            South            E-W     Wait at Light
+165        0,3            South            N-S     Go Straight
+168        0,2            South            E-W     Wait at Light
+169        0,2            South            N-S     Go Straight
+172        0,1            South            E-W     Wait at Light
+173        0,1            South            N-S     Turn Left
+174        0,1            East            E-W     Go Straight
+177        1,1            East            N-S     Wait at Light
+178        1,1            East            E-W     Go Straight
+181        2,1            East            N-S     Wait at Light
+182        2,1            East            E-W     Go Straight
+185        3,1            East            N-S     Wait at Light
+186        3,1            East            E-W     Go Straight
+189        4,1            East            N-S     Wait at Light
+190        4,1            East            E-W     Go Straight
+193        5,1            East            N-S     Wait at Light
+194        5,1            East            E-W     Go Straight
+197        6,1            East            N-S     Wait at Light
+198        6,1            East            E-W     Go Straight
+201        7,1            East            N-S     Wait at Light
+202        7,1            East            E-W     Go Straight
+205        8,1            East            N-S     Wait at Light
+206        8,1            East            E-W     Go Straight
+209        9,1            East            N-S     Wait at Light
+210        9,1            East            E-W     Turn Left
+211        9,1            North            N-S     Go Straight
+214        9,2            North            E-W     Wait at Light
+215        9,2            North            N-S     Go Straight
+218        9,3            North            E-W     Wait at Light
+219        9,3            North            N-S     Go Straight
+222        9,4            North            E-W     Wait at Light
+223        9,4            North            N-S     Go Straight
+226        9,5            North            E-W     Wait at Light
+227        9,5            North            N-S     Go Straight
+230        9,6            North            E-W     Wait at Light
+231        9,6            North            N-S     Go Straight
+234        9,7            North            E-W     Wait at Light
+235        9,7            North            N-S     Go Straight
+238        9,8            North            E-W     Wait at Light
+239        9,8            North            N-S     Go Straight
+242        9,9            North            E-W     Wait at Light
+243        9,9            North            N-S     Turn Left
+244        9,9            West            E-W     Go Straight
+247        8,9            West            N-S     Wait at Light
+248        8,9            West            E-W     Go Straight
+251        7,9            West            N-S     Wait at Light
+252        7,9            West            E-W     Go Straight
+255        6,9            West            N-S     Wait at Light
+256        6,9            West            E-W     Go Straight
+259        5,9            West            N-S     Wait at Light
+260        5,9            West            E-W     Go Straight
+263        4,9            West            N-S     Wait at Light
+264        4,9            West            E-W     Go Straight
+267        3,9            West            N-S     Wait at Light
+268        3,9            West            E-W     Go Straight
+271        2,9            West            N-S     Wait at Light
+272        2,9            West            E-W     Go Straight
+275        1,9            West            N-S     Wait at Light
+276        1,9            West            E-W     Turn Left
+277        1,9            South            N-S     Go Straight
+280        1,8            South            E-W     Wait at Light
+281        1,8            South            N-S     Go Straight
+284        1,7            South            E-W     Wait at Light
+285        1,7            South            N-S     Go Straight
+288        1,6            South            E-W     Wait at Light
+289        1,6            South            N-S     Go Straight
+292        1,5            South            E-W     Wait at Light
+293        1,5            South            N-S     Go Straight
+296        1,4            South            E-W     Wait at Light
+297        1,4            South            N-S     Go Straight
+300        1,3            South            E-W     Wait at Light
+301        1,3            South            N-S     Go Straight
+304        1,2            South            E-W     Wait at Light
+305        1,2            South            N-S     Turn Left
+306        1,2            East            E-W     Go Straight
+309        2,2            East            N-S     Wait at Light
+310        2,2            East            E-W     Go Straight
+313        3,2            East            N-S     Wait at Light
+314        3,2            East            E-W     Go Straight
+317        4,2            East            N-S     Wait at Light
+318        4,2            East            E-W     Go Straight
+321        5,2            East            N-S     Wait at Light
+322        5,2            East            E-W     Go Straight
+325        6,2            East            N-S     Wait at Light
+326        6,2            East            E-W     Go Straight
+329        7,2            East            N-S     Wait at Light
+330        7,2            East            E-W     Go Straight
+333        8,2            East            N-S     Wait at Light
+334        8,2            East            E-W     Turn Left
+335        8,2            North            N-S     Go Straight
+338        8,3            North            E-W     Wait at Light
+339        8,3            North            N-S     Go Straight
+342        8,4            North            E-W     Wait at Light
+343        8,4            North            N-S     Go Straight
+346        8,5            North            E-W     Wait at Light
+347        8,5            North            N-S     Go Straight
+350        8,6            North            E-W     Wait at Light
+351        8,6            North            N-S     Go Straight
+354        8,7            North            E-W     Wait at Light
+355        8,7            North            N-S     Go Straight
+358        8,8            North            E-W     Wait at Light
+359        8,8            North            N-S     Turn Left
+360        8,8            West            E-W     Go Straight
+363        7,8            West            N-S     Wait at Light
+364        7,8            West            E-W     Go Straight
+367        6,8            West            N-S     Wait at Light
+368        6,8            West            E-W     Go Straight
+371        5,8            West            N-S     Wait at Light
+372        5,8            West            E-W     Go Straight
+375        4,8            West            N-S     Wait at Light
+376        4,8            West            E-W     Go Straight
+379        3,8            West            N-S     Wait at Light
+380        3,8            West            E-W     Go Straight
+383        2,8            West            N-S     Wait at Light
+384        2,8            West            E-W     Turn Left
+385        2,8            South            N-S     Go Straight
+388        2,7            South            E-W     Wait at Light
+389        2,7            South            N-S     Go Straight
+392        2,6            South            E-W     Wait at Light
+393        2,6            South            N-S     Go Straight
+396        2,5            South            E-W     Wait at Light
+397        2,5            South            N-S     Go Straight
+400        2,4            South            E-W     Wait at Light
+401        2,4            South            N-S     Go Straight
+404        2,3            South            E-W     Wait at Light
+405        2,3            South            N-S     Turn Left
+406        2,3            East            E-W     Go Straight
+409        3,3            East            N-S     Wait at Light
+410        3,3            East            E-W     Go Straight
+413        4,3            East            N-S     Wait at Light
+414        4,3            East            E-W     Go Straight
+417        5,3            East            N-S     Wait at Light
+418        5,3            East            E-W     Go Straight
+421        6,3            East            N-S     Wait at Light
+422        6,3            East            E-W     Go Straight
+425        7,3            East            N-S     Wait at Light
+426        7,3            East            E-W     Turn Left
+427        7,3            North            N-S     Go Straight
+430        7,4            North            E-W     Wait at Light
+431        7,4            North            N-S     Go Straight
+434        7,5            North            E-W     Wait at Light
+435        7,5            North            N-S     Go Straight
+438        7,6            North            E-W     Wait at Light
+439        7,6            North            N-S     Go Straight
+442        7,7            North            E-W     Wait at Light
+443        7,7            North            N-S     Turn Left
+444        7,7            West            E-W     Go Straight
+447        6,7            West            N-S     Wait at Light
+448        6,7            West            E-W     Go Straight
+451        5,7            West            N-S     Wait at Light
+Reached Destination in 452 minutes with 1 bumps.
+-----END RUN 3-----
+-----RUN 4-----
+➜  hw1 git:(master) ✗ java Driver -d
+Welcome to the cop find simulator! The accident is at: 5,0
+Please enter 'p' for a planned path or 'r' for a random path: 
+p
+Time  Car Location  Car Direction  Green Light Direction  Move Chosen
+0        0,0            East            E-W     Go Straight
+3        1,0            East            N-S     Wait at Light
+4        1,0            East            E-W     Go Straight
+7        2,0            East            N-S     Wait at Light
+8        2,0            East            E-W     Go Straight
+11        3,0            East            N-S     Wait at Light
+12        3,0            East            E-W     Go Straight
+15        4,0            East            N-S     Wait at Light
+16        4,0            East            E-W     Go Straight
+19        5,0            East            N-S     Wait at Light
+Reached Destination in 20 minutes with 0 bumps.
+-----END RUN 4-----
+-----RUN 5-----
+➜  hw1 git:(master) ✗ java Driver -d
+Welcome to the cop find simulator! The accident is at: 8,2
+Please enter 'p' for a planned path or 'r' for a random path: 
+p
+Time  Car Location  Car Direction  Green Light Direction  Move Chosen
+0        0,0            East            E-W     Go Straight
+3        1,0            East            N-S     Wait at Light
+4        1,0            East            E-W     Go Straight
+7        2,0            East            N-S     Wait at Light
+8        2,0            East            E-W     Go Straight
+11        3,0            East            N-S     Wait at Light
+12        3,0            East            E-W     Go Straight
+15        4,0            East            N-S     Wait at Light
+16        4,0            East            E-W     Go Straight
+19        5,0            East            N-S     Wait at Light
+20        5,0            East            E-W     Go Straight
+23        6,0            East            N-S     Wait at Light
+24        6,0            East            E-W     Go Straight
+27        7,0            East            N-S     Wait at Light
+28        7,0            East            E-W     Go Straight
+31        8,0            East            N-S     Wait at Light
+32        8,0            East            E-W     Go Straight
+35        9,0            East            N-S     Wait at Light
+36        9,0            East            E-W     Go Straight
+39        10,0            East            N-S     Wait at Light
+40        10,0            East            E-W     Go Straight
+53        10,0            East            N-S     Wait at Light
+54        10,0            East            E-W     Turn Left
+55        10,0            North            N-S     Go Straight
+58        10,1            North            E-W     Wait at Light
+59        10,1            North            N-S     Go Straight
+62        10,2            North            E-W     Wait at Light
+63        10,2            North            N-S     Go Straight
+66        10,3            North            E-W     Wait at Light
+67        10,3            North            N-S     Go Straight
+70        10,4            North            E-W     Wait at Light
+71        10,4            North            N-S     Go Straight
+74        10,5            North            E-W     Wait at Light
+75        10,5            North            N-S     Go Straight
+78        10,6            North            E-W     Wait at Light
+79        10,6            North            N-S     Go Straight
+82        10,7            North            E-W     Wait at Light
+83        10,7            North            N-S     Go Straight
+86        10,8            North            E-W     Wait at Light
+87        10,8            North            N-S     Go Straight
+90        10,9            North            E-W     Wait at Light
+91        10,9            North            N-S     Go Straight
+94        10,10            North            E-W     Wait at Light
+95        10,10            North            N-S     Turn Left
+96        10,10            West            E-W     Go Straight
+99        9,10            West            N-S     Wait at Light
+100        9,10            West            E-W     Go Straight
+103        8,10            West            N-S     Wait at Light
+104        8,10            West            E-W     Go Straight
+107        7,10            West            N-S     Wait at Light
+108        7,10            West            E-W     Go Straight
+111        6,10            West            N-S     Wait at Light
+112        6,10            West            E-W     Go Straight
+115        5,10            West            N-S     Wait at Light
+116        5,10            West            E-W     Go Straight
+119        4,10            West            N-S     Wait at Light
+120        4,10            West            E-W     Go Straight
+123        3,10            West            N-S     Wait at Light
+124        3,10            West            E-W     Go Straight
+127        2,10            West            N-S     Wait at Light
+128        2,10            West            E-W     Go Straight
+131        1,10            West            N-S     Wait at Light
+132        1,10            West            E-W     Go Straight
+135        0,10            West            N-S     Wait at Light
+136        0,10            West            E-W     Turn Left
+137        0,10            South            N-S     Go Straight
+140        0,9            South            E-W     Wait at Light
+141        0,9            South            N-S     Go Straight
+144        0,8            South            E-W     Wait at Light
+145        0,8            South            N-S     Go Straight
+148        0,7            South            E-W     Wait at Light
+149        0,7            South            N-S     Go Straight
+152        0,6            South            E-W     Wait at Light
+153        0,6            South            N-S     Go Straight
+156        0,5            South            E-W     Wait at Light
+157        0,5            South            N-S     Go Straight
+160        0,4            South            E-W     Wait at Light
+161        0,4            South            N-S     Go Straight
+164        0,3            South            E-W     Wait at Light
+165        0,3            South            N-S     Go Straight
+168        0,2            South            E-W     Wait at Light
+169        0,2            South            N-S     Go Straight
+172        0,1            South            E-W     Wait at Light
+173        0,1            South            N-S     Turn Left
+174        0,1            East            E-W     Go Straight
+177        1,1            East            N-S     Wait at Light
+178        1,1            East            E-W     Go Straight
+181        2,1            East            N-S     Wait at Light
+182        2,1            East            E-W     Go Straight
+185        3,1            East            N-S     Wait at Light
+186        3,1            East            E-W     Go Straight
+189        4,1            East            N-S     Wait at Light
+190        4,1            East            E-W     Go Straight
+193        5,1            East            N-S     Wait at Light
+194        5,1            East            E-W     Go Straight
+197        6,1            East            N-S     Wait at Light
+198        6,1            East            E-W     Go Straight
+201        7,1            East            N-S     Wait at Light
+202        7,1            East            E-W     Go Straight
+205        8,1            East            N-S     Wait at Light
+206        8,1            East            E-W     Go Straight
+209        9,1            East            N-S     Wait at Light
+210        9,1            East            E-W     Turn Left
+211        9,1            North            N-S     Go Straight
+214        9,2            North            E-W     Wait at Light
+215        9,2            North            N-S     Go Straight
+218        9,3            North            E-W     Wait at Light
+219        9,3            North            N-S     Go Straight
+222        9,4            North            E-W     Wait at Light
+223        9,4            North            N-S     Go Straight
+226        9,5            North            E-W     Wait at Light
+227        9,5            North            N-S     Go Straight
+230        9,6            North            E-W     Wait at Light
+231        9,6            North            N-S     Go Straight
+234        9,7            North            E-W     Wait at Light
+235        9,7            North            N-S     Go Straight
+238        9,8            North            E-W     Wait at Light
+239        9,8            North            N-S     Go Straight
+242        9,9            North            E-W     Wait at Light
+243        9,9            North            N-S     Turn Left
+244        9,9            West            E-W     Go Straight
+247        8,9            West            N-S     Wait at Light
+248        8,9            West            E-W     Go Straight
+251        7,9            West            N-S     Wait at Light
+252        7,9            West            E-W     Go Straight
+255        6,9            West            N-S     Wait at Light
+256        6,9            West            E-W     Go Straight
+259        5,9            West            N-S     Wait at Light
+260        5,9            West            E-W     Go Straight
+263        4,9            West            N-S     Wait at Light
+264        4,9            West            E-W     Go Straight
+267        3,9            West            N-S     Wait at Light
+268        3,9            West            E-W     Go Straight
+271        2,9            West            N-S     Wait at Light
+272        2,9            West            E-W     Go Straight
+275        1,9            West            N-S     Wait at Light
+276        1,9            West            E-W     Turn Left
+277        1,9            South            N-S     Go Straight
+280        1,8            South            E-W     Wait at Light
+281        1,8            South            N-S     Go Straight
+284        1,7            South            E-W     Wait at Light
+285        1,7            South            N-S     Go Straight
+288        1,6            South            E-W     Wait at Light
+289        1,6            South            N-S     Go Straight
+292        1,5            South            E-W     Wait at Light
+293        1,5            South            N-S     Go Straight
+296        1,4            South            E-W     Wait at Light
+297        1,4            South            N-S     Go Straight
+300        1,3            South            E-W     Wait at Light
+301        1,3            South            N-S     Go Straight
+304        1,2            South            E-W     Wait at Light
+305        1,2            South            N-S     Turn Left
+306        1,2            East            E-W     Go Straight
+309        2,2            East            N-S     Wait at Light
+310        2,2            East            E-W     Go Straight
+313        3,2            East            N-S     Wait at Light
+314        3,2            East            E-W     Go Straight
+317        4,2            East            N-S     Wait at Light
+318        4,2            East            E-W     Go Straight
+321        5,2            East            N-S     Wait at Light
+322        5,2            East            E-W     Go Straight
+325        6,2            East            N-S     Wait at Light
+326        6,2            East            E-W     Go Straight
+329        7,2            East            N-S     Wait at Light
+330        7,2            East            E-W     Go Straight
+333        8,2            East            N-S     Wait at Light
+Reached Destination in 334 minutes with 1 bumps.
+-----END RUN 5-----
+-----RUN RANDOM-----
+t:(master) ✗ java Driver -d
+Welcome to the cop find simulator! The accident is at: 2,7
+Please enter 'p' for a planned path or 'r' for a random path: 
+r
+Time  Car Location  Car Direction  Green Light Direction  Move Chosen
+0        0,0            East            E-W     Turn Right
+1        0,0            South            N-S     Wait at Light
+2        0,0            South            E-W     Turn Right
+2        0,0            South            E-W     Turn Right
+2        0,0            South            E-W     Go Straight
+2        0,0            South            E-W     Wait at Light
+3        0,0            South            N-S     Go Straight
+16        0,0            South            E-W     Wait at Light
+17        0,0            South            N-S     Go Straight
+30        0,0            South            E-W     Go Straight
+30        0,0            South            E-W     Wait at Light
+31        0,0            South            N-S     Turn Right
+32        0,0            West            E-W     Turn Left
+33        0,0            South            N-S     Turn Left
+34        0,0            East            E-W     Wait at Light
+35        0,0            East            N-S     Wait at Light
+36        0,0            East            E-W     Turn Left
+37        0,0            North            N-S     Turn Right
+38        0,0            East            E-W     Wait at Light
+39        0,0            East            N-S     Turn Right
+39        0,0            East            N-S     Go Straight
+39        0,0            East            N-S     Wait at Light
+40        0,0            East            E-W     Go Straight
+43        1,0            East            N-S     Go Straight
+43        1,0            East            N-S     Go Straight
+43        1,0            East            N-S     Wait at Light
+44        1,0            East            E-W     Wait at Light
+45        1,0            East            N-S     Turn Right
+45        1,0            East            N-S     Turn Right
+45        1,0            East            N-S     Wait at Light
+46        1,0            East            E-W     Go Straight
+49        2,0            East            N-S     Turn Right
+49        2,0            East            N-S     Wait at Light
+50        2,0            East            E-W     Go Straight
+53        3,0            East            N-S     Go Straight
+53        3,0            East            N-S     Wait at Light
+54        3,0            East            E-W     Turn Right
+55        3,0            South            N-S     Go Straight
+68        3,0            South            E-W     Wait at Light
+69        3,0            South            N-S     Wait at Light
+70        3,0            South            E-W     Turn Right
+70        3,0            South            E-W     Wait at Light
+71        3,0            South            N-S     Wait at Light
+72        3,0            South            E-W     Turn Left
+72        3,0            South            E-W     Wait at Light
+73        3,0            South            N-S     Turn Right
+74        3,0            West            E-W     Wait at Light
+75        3,0            West            N-S     Go Straight
+75        3,0            West            N-S     Turn Right
+75        3,0            West            N-S     Turn Right
+75        3,0            West            N-S     Turn Right
+75        3,0            West            N-S     Go Straight
+75        3,0            West            N-S     Wait at Light
+76        3,0            West            E-W     Wait at Light
+77        3,0            West            N-S     Turn Left
+77        3,0            West            N-S     Turn Right
+77        3,0            West            N-S     Turn Right
+77        3,0            West            N-S     Turn Right
+77        3,0            West            N-S     Go Straight
+77        3,0            West            N-S     Turn Left
+77        3,0            West            N-S     Turn Right
+77        3,0            West            N-S     Turn Right
+77        3,0            West            N-S     Go Straight
+77        3,0            West            N-S     Go Straight
+77        3,0            West            N-S     Turn Right
+77        3,0            West            N-S     Turn Left
+77        3,0            West            N-S     Turn Right
+77        3,0            West            N-S     Wait at Light
+78        3,0            West            E-W     Turn Right
+79        3,0            North            N-S     Go Straight
+82        3,1            North            E-W     Wait at Light
+83        3,1            North            N-S     Turn Left
+84        3,1            West            E-W     Turn Right
+85        3,1            North            N-S     Wait at Light
+86        3,1            North            E-W     Wait at Light
+87        3,1            North            N-S     Wait at Light
+88        3,1            North            E-W     Wait at Light
+89        3,1            North            N-S     Turn Right
+90        3,1            East            E-W     Turn Left
+91        3,1            North            N-S     Wait at Light
+92        3,1            North            E-W     Wait at Light
+93        3,1            North            N-S     Wait at Light
+94        3,1            North            E-W     Wait at Light
+95        3,1            North            N-S     Go Straight
+98        3,2            North            E-W     Turn Left
+98        3,2            North            E-W     Turn Left
+98        3,2            North            E-W     Turn Left
+98        3,2            North            E-W     Go Straight
+98        3,2            North            E-W     Turn Right
+98        3,2            North            E-W     Turn Right
+98        3,2            North            E-W     Turn Left
+98        3,2            North            E-W     Go Straight
+98        3,2            North            E-W     Turn Left
+98        3,2            North            E-W     Turn Right
+98        3,2            North            E-W     Turn Right
+98        3,2            North            E-W     Turn Left
+98        3,2            North            E-W     Turn Left
+98        3,2            North            E-W     Turn Left
+98        3,2            North            E-W     Turn Right
+98        3,2            North            E-W     Turn Left
+98        3,2            North            E-W     Go Straight
+98        3,2            North            E-W     Turn Left
+98        3,2            North            E-W     Turn Left
+98        3,2            North            E-W     Turn Right
+98        3,2            North            E-W     Turn Right
+98        3,2            North            E-W     Wait at Light
+99        3,2            North            N-S     Turn Right
+100        3,2            East            E-W     Go Straight
+103        4,2            East            N-S     Wait at Light
+104        4,2            East            E-W     Turn Left
+105        4,2            North            N-S     Wait at Light
+106        4,2            North            E-W     Turn Left
+106        4,2            North            E-W     Turn Left
+106        4,2            North            E-W     Turn Right
+106        4,2            North            E-W     Go Straight
+106        4,2            North            E-W     Turn Right
+106        4,2            North            E-W     Turn Left
+106        4,2            North            E-W     Turn Left
+106        4,2            North            E-W     Wait at Light
+107        4,2            North            N-S     Wait at Light
+108        4,2            North            E-W     Wait at Light
+109        4,2            North            N-S     Go Straight
+112        4,3            North            E-W     Go Straight
+112        4,3            North            E-W     Turn Left
+112        4,3            North            E-W     Turn Right
+112        4,3            North            E-W     Turn Left
+112        4,3            North            E-W     Turn Right
+112        4,3            North            E-W     Turn Left
+112        4,3            North            E-W     Turn Left
+112        4,3            North            E-W     Turn Right
+112        4,3            North            E-W     Turn Right
+112        4,3            North            E-W     Go Straight
+112        4,3            North            E-W     Turn Left
+112        4,3            North            E-W     Wait at Light
+113        4,3            North            N-S     Turn Right
+114        4,3            East            E-W     Turn Right
+115        4,3            South            N-S     Turn Left
+116        4,3            East            E-W     Turn Left
+117        4,3            North            N-S     Turn Right
+118        4,3            East            E-W     Turn Right
+119        4,3            South            N-S     Wait at Light
+120        4,3            South            E-W     Turn Left
+120        4,3            South            E-W     Turn Right
+120        4,3            South            E-W     Go Straight
+120        4,3            South            E-W     Wait at Light
+121        4,3            South            N-S     Wait at Light
+122        4,3            South            E-W     Turn Right
+122        4,3            South            E-W     Turn Right
+122        4,3            South            E-W     Turn Left
+122        4,3            South            E-W     Turn Right
+122        4,3            South            E-W     Go Straight
+122        4,3            South            E-W     Turn Left
+122        4,3            South            E-W     Turn Right
+122        4,3            South            E-W     Go Straight
+122        4,3            South            E-W     Go Straight
+122        4,3            South            E-W     Go Straight
+122        4,3            South            E-W     Turn Right
+122        4,3            South            E-W     Turn Right
+122        4,3            South            E-W     Wait at Light
+123        4,3            South            N-S     Turn Left
+124        4,3            East            E-W     Wait at Light
+125        4,3            East            N-S     Turn Right
+125        4,3            East            N-S     Wait at Light
+126        4,3            East            E-W     Go Straight
+129        5,3            East            N-S     Go Straight
+129        5,3            East            N-S     Go Straight
+129        5,3            East            N-S     Turn Right
+129        5,3            East            N-S     Go Straight
+129        5,3            East            N-S     Go Straight
+129        5,3            East            N-S     Wait at Light
+130        5,3            East            E-W     Turn Left
+131        5,3            North            N-S     Turn Right
+132        5,3            East            E-W     Go Straight
+135        6,3            East            N-S     Wait at Light
+136        6,3            East            E-W     Turn Right
+137        6,3            South            N-S     Turn Left
+138        6,3            East            E-W     Go Straight
+141        7,3            East            N-S     Turn Left
+141        7,3            East            N-S     Turn Left
+141        7,3            East            N-S     Turn Left
+141        7,3            East            N-S     Wait at Light
+142        7,3            East            E-W     Turn Left
+143        7,3            North            N-S     Wait at Light
+144        7,3            North            E-W     Go Straight
+144        7,3            North            E-W     Turn Left
+144        7,3            North            E-W     Wait at Light
+145        7,3            North            N-S     Go Straight
+148        7,4            North            E-W     Turn Right
+148        7,4            North            E-W     Turn Right
+148        7,4            North            E-W     Wait at Light
+149        7,4            North            N-S     Go Straight
+152        7,5            North            E-W     Wait at Light
+153        7,5            North            N-S     Wait at Light
+154        7,5            North            E-W     Wait at Light
+155        7,5            North            N-S     Go Straight
+158        7,6            North            E-W     Go Straight
+158        7,6            North            E-W     Turn Right
+158        7,6            North            E-W     Turn Left
+158        7,6            North            E-W     Turn Right
+158        7,6            North            E-W     Go Straight
+158        7,6            North            E-W     Wait at Light
+159        7,6            North            N-S     Turn Right
+160        7,6            East            E-W     Turn Right
+161        7,6            South            N-S     Go Straight
+164        7,5            South            E-W     Go Straight
+164        7,5            South            E-W     Turn Left
+164        7,5            South            E-W     Go Straight
+164        7,5            South            E-W     Go Straight
+164        7,5            South            E-W     Turn Left
+164        7,5            South            E-W     Wait at Light
+165        7,5            South            N-S     Go Straight
+168        7,4            South            E-W     Turn Right
+168        7,4            South            E-W     Wait at Light
+169        7,4            South            N-S     Wait at Light
+170        7,4            South            E-W     Wait at Light
+171        7,4            South            N-S     Turn Right
+172        7,4            West            E-W     Turn Left
+173        7,4            South            N-S     Wait at Light
+174        7,4            South            E-W     Turn Left
+174        7,4            South            E-W     Turn Left
+174        7,4            South            E-W     Turn Right
+174        7,4            South            E-W     Go Straight
+174        7,4            South            E-W     Wait at Light
+175        7,4            South            N-S     Turn Left
+176        7,4            East            E-W     Turn Left
+177        7,4            North            N-S     Turn Right
+178        7,4            East            E-W     Turn Left
+179        7,4            North            N-S     Turn Right
+180        7,4            East            E-W     Turn Right
+181        7,4            South            N-S     Turn Left
+182        7,4            East            E-W     Go Straight
+185        8,4            East            N-S     Go Straight
+185        8,4            East            N-S     Wait at Light
+186        8,4            East            E-W     Turn Left
+187        8,4            North            N-S     Turn Left
+188        8,4            West            E-W     Turn Right
+189        8,4            North            N-S     Wait at Light
+190        8,4            North            E-W     Wait at Light
+191        8,4            North            N-S     Turn Left
+192        8,4            West            E-W     Turn Right
+193        8,4            North            N-S     Wait at Light
+194        8,4            North            E-W     Turn Right
+194        8,4            North            E-W     Wait at Light
+195        8,4            North            N-S     Wait at Light
+196        8,4            North            E-W     Go Straight
+196        8,4            North            E-W     Turn Left
+196        8,4            North            E-W     Turn Right
+196        8,4            North            E-W     Go Straight
+196        8,4            North            E-W     Turn Right
+196        8,4            North            E-W     Go Straight
+196        8,4            North            E-W     Turn Right
+196        8,4            North            E-W     Go Straight
+196        8,4            North            E-W     Wait at Light
+197        8,4            North            N-S     Wait at Light
+198        8,4            North            E-W     Turn Left
+198        8,4            North            E-W     Turn Right
+198        8,4            North            E-W     Go Straight
+198        8,4            North            E-W     Wait at Light
+199        8,4            North            N-S     Go Straight
+202        8,5            North            E-W     Wait at Light
+203        8,5            North            N-S     Turn Right
+204        8,5            East            E-W     Turn Right
+205        8,5            South            N-S     Go Straight
+208        8,4            South            E-W     Turn Left
+208        8,4            South            E-W     Go Straight
+208        8,4            South            E-W     Wait at Light
+209        8,4            South            N-S     Go Straight
+212        8,3            South            E-W     Turn Right
+212        8,3            South            E-W     Go Straight
+212        8,3            South            E-W     Go Straight
+212        8,3            South            E-W     Turn Left
+212        8,3            South            E-W     Turn Left
+212        8,3            South            E-W     Turn Left
+212        8,3            South            E-W     Turn Right
+212        8,3            South            E-W     Wait at Light
+213        8,3            South            N-S     Turn Left
+214        8,3            East            E-W     Go Straight
+217        9,3            East            N-S     Turn Left
+217        9,3            East            N-S     Turn Right
+217        9,3            East            N-S     Turn Left
+217        9,3            East            N-S     Go Straight
+217        9,3            East            N-S     Go Straight
+217        9,3            East            N-S     Turn Right
+217        9,3            East            N-S     Wait at Light
+218        9,3            East            E-W     Wait at Light
+219        9,3            East            N-S     Go Straight
+219        9,3            East            N-S     Wait at Light
+220        9,3            East            E-W     Turn Left
+221        9,3            North            N-S     Go Straight
+224        9,4            North            E-W     Turn Right
+224        9,4            North            E-W     Go Straight
+224        9,4            North            E-W     Go Straight
+224        9,4            North            E-W     Wait at Light
+225        9,4            North            N-S     Wait at Light
+226        9,4            North            E-W     Go Straight
+226        9,4            North            E-W     Wait at Light
+227        9,4            North            N-S     Wait at Light
+228        9,4            North            E-W     Wait at Light
+229        9,4            North            N-S     Turn Left
+230        9,4            West            E-W     Wait at Light
+231        9,4            West            N-S     Wait at Light
+232        9,4            West            E-W     Turn Left
+233        9,4            South            N-S     Go Straight
+236        9,3            South            E-W     Turn Right
+236        9,3            South            E-W     Wait at Light
+237        9,3            South            N-S     Turn Left
+238        9,3            East            E-W     Wait at Light
+239        9,3            East            N-S     Turn Right
+239        9,3            East            N-S     Wait at Light
+240        9,3            East            E-W     Turn Left
+241        9,3            North            N-S     Turn Left
+242        9,3            West            E-W     Turn Right
+243        9,3            North            N-S     Turn Right
+244        9,3            East            E-W     Turn Left
+245        9,3            North            N-S     Turn Right
+246        9,3            East            E-W     Go Straight
+249        10,3            East            N-S     Wait at Light
+250        10,3            East            E-W     Turn Right
+251        10,3            South            N-S     Turn Right
+252        10,3            West            E-W     Turn Left
+253        10,3            South            N-S     Wait at Light
+254        10,3            South            E-W     Go Straight
+254        10,3            South            E-W     Turn Right
+254        10,3            South            E-W     Turn Right
+254        10,3            South            E-W     Go Straight
+254        10,3            South            E-W     Turn Right
+254        10,3            South            E-W     Wait at Light
+255        10,3            South            N-S     Wait at Light
+256        10,3            South            E-W     Go Straight
+256        10,3            South            E-W     Turn Left
+256        10,3            South            E-W     Turn Left
+256        10,3            South            E-W     Go Straight
+256        10,3            South            E-W     Turn Left
+256        10,3            South            E-W     Turn Left
+256        10,3            South            E-W     Turn Left
+256        10,3            South            E-W     Go Straight
+256        10,3            South            E-W     Turn Right
+256        10,3            South            E-W     Turn Left
+256        10,3            South            E-W     Turn Right
+256        10,3            South            E-W     Wait at Light
+257        10,3            South            N-S     Turn Right
+258        10,3            West            E-W     Wait at Light
+259        10,3            West            N-S     Go Straight
+259        10,3            West            N-S     Turn Left
+259        10,3            West            N-S     Turn Right
+259        10,3            West            N-S     Go Straight
+259        10,3            West            N-S     Turn Left
+259        10,3            West            N-S     Turn Left
+259        10,3            West            N-S     Wait at Light
+260        10,3            West            E-W     Turn Right
+261        10,3            North            N-S     Wait at Light
+262        10,3            North            E-W     Turn Left
+262        10,3            North            E-W     Go Straight
+262        10,3            North            E-W     Go Straight
+262        10,3            North            E-W     Go Straight
+262        10,3            North            E-W     Turn Right
+262        10,3            North            E-W     Go Straight
+262        10,3            North            E-W     Turn Left
+262        10,3            North            E-W     Go Straight
+262        10,3            North            E-W     Turn Left
+262        10,3            North            E-W     Wait at Light
+263        10,3            North            N-S     Turn Right
+264        10,3            East            E-W     Turn Right
+265        10,3            South            N-S     Go Straight
+268        10,2            South            E-W     Wait at Light
+269        10,2            South            N-S     Wait at Light
+270        10,2            South            E-W     Go Straight
+270        10,2            South            E-W     Go Straight
+270        10,2            South            E-W     Go Straight
+270        10,2            South            E-W     Turn Left
+270        10,2            South            E-W     Wait at Light
+271        10,2            South            N-S     Turn Right
+272        10,2            West            E-W     Wait at Light
+273        10,2            West            N-S     Turn Left
+273        10,2            West            N-S     Go Straight
+273        10,2            West            N-S     Go Straight
+273        10,2            West            N-S     Go Straight
+273        10,2            West            N-S     Turn Left
+273        10,2            West            N-S     Go Straight
+273        10,2            West            N-S     Turn Right
+273        10,2            West            N-S     Go Straight
+273        10,2            West            N-S     Turn Right
+273        10,2            West            N-S     Wait at Light
+274        10,2            West            E-W     Turn Left
+275        10,2            South            N-S     Go Straight
+278        10,1            South            E-W     Turn Left
+278        10,1            South            E-W     Wait at Light
+279        10,1            South            N-S     Go Straight
+282        10,0            South            E-W     Wait at Light
+283        10,0            South            N-S     Turn Right
+284        10,0            West            E-W     Wait at Light
+285        10,0            West            N-S     Wait at Light
+286        10,0            West            E-W     Turn Left
+287        10,0            South            N-S     Go Straight
+300        10,0            South            E-W     Wait at Light
+301        10,0            South            N-S     Turn Right
+302        10,0            West            E-W     Turn Right
+303        10,0            North            N-S     Turn Left
+304        10,0            West            E-W     Turn Right
+305        10,0            North            N-S     Turn Right
+306        10,0            East            E-W     Go Straight
+319        10,0            East            N-S     Turn Right
+319        10,0            East            N-S     Turn Right
+319        10,0            East            N-S     Turn Right
+319        10,0            East            N-S     Turn Right
+319        10,0            East            N-S     Turn Left
+319        10,0            East            N-S     Turn Right
+319        10,0            East            N-S     Wait at Light
+320        10,0            East            E-W     Turn Right
+321        10,0            South            N-S     Turn Left
+322        10,0            East            E-W     Go Straight
+335        10,0            East            N-S     Wait at Light
+336        10,0            East            E-W     Go Straight
+349        10,0            East            N-S     Wait at Light
+350        10,0            East            E-W     Turn Right
+351        10,0            South            N-S     Wait at Light
+352        10,0            South            E-W     Turn Right
+352        10,0            South            E-W     Go Straight
+352        10,0            South            E-W     Turn Right
+352        10,0            South            E-W     Go Straight
+352        10,0            South            E-W     Wait at Light
+353        10,0            South            N-S     Turn Left
+354        10,0            East            E-W     Turn Left
+355        10,0            North            N-S     Wait at Light
+356        10,0            North            E-W     Go Straight
+356        10,0            North            E-W     Go Straight
+356        10,0            North            E-W     Turn Left
+356        10,0            North            E-W     Wait at Light
+357        10,0            North            N-S     Turn Right
+358        10,0            East            E-W     Turn Right
+359        10,0            South            N-S     Turn Left
+360        10,0            East            E-W     Turn Left
+361        10,0            North            N-S     Go Straight
+364        10,1            North            E-W     Go Straight
+364        10,1            North            E-W     Turn Right
+364        10,1            North            E-W     Turn Left
+364        10,1            North            E-W     Turn Left
+364        10,1            North            E-W     Turn Left
+364        10,1            North            E-W     Go Straight
+364        10,1            North            E-W     Turn Left
+364        10,1            North            E-W     Go Straight
+364        10,1            North            E-W     Go Straight
+364        10,1            North            E-W     Wait at Light
+365        10,1            North            N-S     Turn Right
+366        10,1            East            E-W     Go Straight
+379        10,1            East            N-S     Wait at Light
+380        10,1            East            E-W     Go Straight
+393        10,1            East            N-S     Wait at Light
+394        10,1            East            E-W     Turn Right
+395        10,1            South            N-S     Turn Left
+396        10,1            East            E-W     Turn Left
+397        10,1            North            N-S     Wait at Light
+398        10,1            North            E-W     Wait at Light
+399        10,1            North            N-S     Wait at Light
+400        10,1            North            E-W     Turn Left
+400        10,1            North            E-W     Go Straight
+400        10,1            North            E-W     Go Straight
+400        10,1            North            E-W     Turn Left
+400        10,1            North            E-W     Turn Left
+400        10,1            North            E-W     Wait at Light
+401        10,1            North            N-S     Wait at Light
+402        10,1            North            E-W     Go Straight
+402        10,1            North            E-W     Turn Left
+402        10,1            North            E-W     Go Straight
+402        10,1            North            E-W     Go Straight
+402        10,1            North            E-W     Wait at Light
+403        10,1            North            N-S     Wait at Light
+404        10,1            North            E-W     Wait at Light
+405        10,1            North            N-S     Wait at Light
+406        10,1            North            E-W     Turn Left
+406        10,1            North            E-W     Turn Right
+406        10,1            North            E-W     Go Straight
+406        10,1            North            E-W     Turn Left
+406        10,1            North            E-W     Turn Right
+406        10,1            North            E-W     Go Straight
+406        10,1            North            E-W     Wait at Light
+407        10,1            North            N-S     Turn Left
+408        10,1            West            E-W     Turn Left
+409        10,1            South            N-S     Turn Right
+410        10,1            West            E-W     Turn Left
+411        10,1            South            N-S     Wait at Light
+412        10,1            South            E-W     Go Straight
+412        10,1            South            E-W     Wait at Light
+413        10,1            South            N-S     Wait at Light
+414        10,1            South            E-W     Go Straight
+414        10,1            South            E-W     Turn Left
+414        10,1            South            E-W     Turn Right
+414        10,1            South            E-W     Turn Left
+414        10,1            South            E-W     Wait at Light
+415        10,1            South            N-S     Go Straight
+418        10,0            South            E-W     Go Straight
+418        10,0            South            E-W     Wait at Light
+419        10,0            South            N-S     Turn Left
+420        10,0            East            E-W     Go Straight
+433        10,0            East            N-S     Go Straight
+433        10,0            East            N-S     Wait at Light
+434        10,0            East            E-W     Turn Right
+435        10,0            South            N-S     Wait at Light
+436        10,0            South            E-W     Go Straight
+436        10,0            South            E-W     Turn Right
+436        10,0            South            E-W     Turn Right
+436        10,0            South            E-W     Turn Right
+436        10,0            South            E-W     Turn Right
+436        10,0            South            E-W     Go Straight
+436        10,0            South            E-W     Turn Right
+436        10,0            South            E-W     Turn Left
+436        10,0            South            E-W     Go Straight
+436        10,0            South            E-W     Turn Right
+436        10,0            South            E-W     Turn Right
+436        10,0            South            E-W     Go Straight
+436        10,0            South            E-W     Turn Right
+436        10,0            South            E-W     Wait at Light
+437        10,0            South            N-S     Turn Right
+438        10,0            West            E-W     Go Straight
+441        9,0            West            N-S     Turn Right
+441        9,0            West            N-S     Wait at Light
+442        9,0            West            E-W     Turn Left
+443        9,0            South            N-S     Wait at Light
+444        9,0            South            E-W     Turn Right
+444        9,0            South            E-W     Turn Left
+444        9,0            South            E-W     Wait at Light
+445        9,0            South            N-S     Turn Left
+446        9,0            East            E-W     Wait at Light
+447        9,0            East            N-S     Turn Right
+447        9,0            East            N-S     Turn Right
+447        9,0            East            N-S     Turn Left
+447        9,0            East            N-S     Go Straight
+447        9,0            East            N-S     Wait at Light
+448        9,0            East            E-W     Wait at Light
+449        9,0            East            N-S     Go Straight
+449        9,0            East            N-S     Turn Left
+449        9,0            East            N-S     Turn Right
+449        9,0            East            N-S     Wait at Light
+450        9,0            East            E-W     Wait at Light
+451        9,0            East            N-S     Wait at Light
+452        9,0            East            E-W     Go Straight
+455        10,0            East            N-S     Wait at Light
+456        10,0            East            E-W     Wait at Light
+457        10,0            East            N-S     Go Straight
+457        10,0            East            N-S     Wait at Light
+458        10,0            East            E-W     Go Straight
+471        10,0            East            N-S     Turn Right
+471        10,0            East            N-S     Turn Left
+471        10,0            East            N-S     Turn Left
+471        10,0            East            N-S     Turn Left
+471        10,0            East            N-S     Wait at Light
+472        10,0            East            E-W     Go Straight
+485        10,0            East            N-S     Turn Left
+485        10,0            East            N-S     Turn Right
+485        10,0            East            N-S     Turn Left
+485        10,0            East            N-S     Turn Left
+485        10,0            East            N-S     Turn Left
+485        10,0            East            N-S     Wait at Light
+486        10,0            East            E-W     Wait at Light
+487        10,0            East            N-S     Turn Left
+487        10,0            East            N-S     Wait at Light
+488        10,0            East            E-W     Turn Right
+489        10,0            South            N-S     Turn Left
+490        10,0            East            E-W     Turn Left
+491        10,0            North            N-S     Turn Right
+492        10,0            East            E-W     Wait at Light
+493        10,0            East            N-S     Go Straight
+493        10,0            East            N-S     Turn Right
+493        10,0            East            N-S     Wait at Light
+494        10,0            East            E-W     Turn Right
+495        10,0            South            N-S     Turn Left
+496        10,0            East            E-W     Wait at Light
+497        10,0            East            N-S     Go Straight
+497        10,0            East            N-S     Turn Left
+497        10,0            East            N-S     Go Straight
+497        10,0            East            N-S     Wait at Light
+498        10,0            East            E-W     Go Straight
+511        10,0            East            N-S     Turn Left
+511        10,0            East            N-S     Wait at Light
+512        10,0            East            E-W     Turn Left
+513        10,0            North            N-S     Turn Left
+514        10,0            West            E-W     Wait at Light
+515        10,0            West            N-S     Turn Right
+515        10,0            West            N-S     Go Straight
+515        10,0            West            N-S     Turn Left
+515        10,0            West            N-S     Wait at Light
+516        10,0            West            E-W     Go Straight
+519        9,0            West            N-S     Turn Left
+519        9,0            West            N-S     Go Straight
+519        9,0            West            N-S     Wait at Light
+520        9,0            West            E-W     Go Straight
+523        8,0            West            N-S     Wait at Light
+524        8,0            West            E-W     Go Straight
+527        7,0            West            N-S     Turn Right
+527        7,0            West            N-S     Wait at Light
+528        7,0            West            E-W     Wait at Light
+529        7,0            West            N-S     Turn Right
+529        7,0            West            N-S     Turn Right
+529        7,0            West            N-S     Turn Left
+529        7,0            West            N-S     Turn Left
+529        7,0            West            N-S     Go Straight
+529        7,0            West            N-S     Go Straight
+529        7,0            West            N-S     Go Straight
+529        7,0            West            N-S     Wait at Light
+530        7,0            West            E-W     Turn Right
+531        7,0            North            N-S     Wait at Light
+532        7,0            North            E-W     Wait at Light
+533        7,0            North            N-S     Go Straight
+536        7,1            North            E-W     Wait at Light
+537        7,1            North            N-S     Turn Left
+538        7,1            West            E-W     Turn Left
+539        7,1            South            N-S     Wait at Light
+540        7,1            South            E-W     Turn Right
+540        7,1            South            E-W     Turn Right
+540        7,1            South            E-W     Turn Right
+540        7,1            South            E-W     Turn Right
+540        7,1            South            E-W     Turn Left
+540        7,1            South            E-W     Turn Right
+540        7,1            South            E-W     Go Straight
+540        7,1            South            E-W     Turn Left
+540        7,1            South            E-W     Turn Right
+540        7,1            South            E-W     Turn Left
+540        7,1            South            E-W     Wait at Light
+541        7,1            South            N-S     Wait at Light
+542        7,1            South            E-W     Wait at Light
+543        7,1            South            N-S     Go Straight
+546        7,0            South            E-W     Turn Left
+546        7,0            South            E-W     Go Straight
+546        7,0            South            E-W     Turn Right
+546        7,0            South            E-W     Wait at Light
+547        7,0            South            N-S     Go Straight
+560        7,0            South            E-W     Turn Right
+560        7,0            South            E-W     Go Straight
+560        7,0            South            E-W     Turn Left
+560        7,0            South            E-W     Turn Left
+560        7,0            South            E-W     Wait at Light
+561        7,0            South            N-S     Turn Right
+562        7,0            West            E-W     Turn Right
+563        7,0            North            N-S     Go Straight
+566        7,1            North            E-W     Turn Left
+566        7,1            North            E-W     Wait at Light
+567        7,1            North            N-S     Turn Left
+568        7,1            West            E-W     Go Straight
+571        6,1            West            N-S     Wait at Light
+572        6,1            West            E-W     Turn Left
+573        6,1            South            N-S     Turn Left
+574        6,1            East            E-W     Turn Left
+575        6,1            North            N-S     Wait at Light
+576        6,1            North            E-W     Wait at Light
+577        6,1            North            N-S     Go Straight
+580        6,2            North            E-W     Turn Right
+580        6,2            North            E-W     Turn Left
+580        6,2            North            E-W     Turn Left
+580        6,2            North            E-W     Go Straight
+580        6,2            North            E-W     Go Straight
+580        6,2            North            E-W     Turn Right
+580        6,2            North            E-W     Go Straight
+580        6,2            North            E-W     Turn Left
+580        6,2            North            E-W     Turn Left
+580        6,2            North            E-W     Wait at Light
+581        6,2            North            N-S     Turn Right
+582        6,2            East            E-W     Wait at Light
+583        6,2            East            N-S     Wait at Light
+584        6,2            East            E-W     Turn Left
+585        6,2            North            N-S     Turn Right
+586        6,2            East            E-W     Turn Left
+587        6,2            North            N-S     Go Straight
+590        6,3            North            E-W     Turn Right
+590        6,3            North            E-W     Go Straight
+590        6,3            North            E-W     Go Straight
+590        6,3            North            E-W     Turn Left
+590        6,3            North            E-W     Wait at Light
+591        6,3            North            N-S     Turn Left
+592        6,3            West            E-W     Go Straight
+595        5,3            West            N-S     Wait at Light
+596        5,3            West            E-W     Go Straight
+599        4,3            West            N-S     Turn Left
+599        4,3            West            N-S     Wait at Light
+600        4,3            West            E-W     Wait at Light
+601        4,3            West            N-S     Turn Left
+601        4,3            West            N-S     Go Straight
+601        4,3            West            N-S     Turn Left
+601        4,3            West            N-S     Turn Right
+601        4,3            West            N-S     Go Straight
+601        4,3            West            N-S     Go Straight
+601        4,3            West            N-S     Turn Left
+601        4,3            West            N-S     Turn Right
+601        4,3            West            N-S     Go Straight
+601        4,3            West            N-S     Wait at Light
+602        4,3            West            E-W     Turn Left
+603        4,3            South            N-S     Wait at Light
+604        4,3            South            E-W     Turn Left
+604        4,3            South            E-W     Turn Left
+604        4,3            South            E-W     Wait at Light
+605        4,3            South            N-S     Turn Right
+606        4,3            West            E-W     Turn Left
+607        4,3            South            N-S     Wait at Light
+608        4,3            South            E-W     Turn Left
+608        4,3            South            E-W     Turn Right
+608        4,3            South            E-W     Turn Right
+608        4,3            South            E-W     Turn Right
+608        4,3            South            E-W     Wait at Light
+609        4,3            South            N-S     Turn Right
+610        4,3            West            E-W     Wait at Light
+611        4,3            West            N-S     Go Straight
+611        4,3            West            N-S     Turn Left
+611        4,3            West            N-S     Turn Right
+611        4,3            West            N-S     Turn Left
+611        4,3            West            N-S     Wait at Light
+612        4,3            West            E-W     Turn Left
+613        4,3            South            N-S     Wait at Light
+614        4,3            South            E-W     Wait at Light
+615        4,3            South            N-S     Go Straight
+618        4,2            South            E-W     Wait at Light
+619        4,2            South            N-S     Go Straight
+622        4,1            South            E-W     Wait at Light
+623        4,1            South            N-S     Turn Left
+624        4,1            East            E-W     Turn Right
+625        4,1            South            N-S     Wait at Light
+626        4,1            South            E-W     Turn Left
+626        4,1            South            E-W     Go Straight
+626        4,1            South            E-W     Turn Left
+626        4,1            South            E-W     Go Straight
+626        4,1            South            E-W     Go Straight
+626        4,1            South            E-W     Turn Right
+626        4,1            South            E-W     Wait at Light
+627        4,1            South            N-S     Turn Right
+628        4,1            West            E-W     Wait at Light
+629        4,1            West            N-S     Go Straight
+629        4,1            West            N-S     Turn Left
+629        4,1            West            N-S     Wait at Light
+630        4,1            West            E-W     Turn Left
+631        4,1            South            N-S     Go Straight
+634        4,0            South            E-W     Wait at Light
+635        4,0            South            N-S     Turn Right
+636        4,0            West            E-W     Wait at Light
+637        4,0            West            N-S     Turn Right
+637        4,0            West            N-S     Turn Right
+637        4,0            West            N-S     Go Straight
+637        4,0            West            N-S     Turn Left
+637        4,0            West            N-S     Turn Left
+637        4,0            West            N-S     Wait at Light
+638        4,0            West            E-W     Turn Right
+639        4,0            North            N-S     Wait at Light
+640        4,0            North            E-W     Wait at Light
+641        4,0            North            N-S     Turn Right
+642        4,0            East            E-W     Turn Left
+643        4,0            North            N-S     Go Straight
+646        4,1            North            E-W     Go Straight
+646        4,1            North            E-W     Go Straight
+646        4,1            North            E-W     Go Straight
+646        4,1            North            E-W     Wait at Light
+647        4,1            North            N-S     Turn Right
+648        4,1            East            E-W     Turn Right
+649        4,1            South            N-S     Turn Right
+650        4,1            West            E-W     Go Straight
+653        3,1            West            N-S     Wait at Light
+654        3,1            West            E-W     Turn Left
+655        3,1            South            N-S     Go Straight
+658        3,0            South            E-W     Wait at Light
+659        3,0            South            N-S     Go Straight
+672        3,0            South            E-W     Go Straight
+672        3,0            South            E-W     Turn Left
+672        3,0            South            E-W     Go Straight
+672        3,0            South            E-W     Turn Right
+672        3,0            South            E-W     Go Straight
+672        3,0            South            E-W     Turn Right
+672        3,0            South            E-W     Wait at Light
+673        3,0            South            N-S     Turn Right
+674        3,0            West            E-W     Go Straight
+677        2,0            West            N-S     Turn Right
+677        2,0            West            N-S     Turn Left
+677        2,0            West            N-S     Turn Right
+677        2,0            West            N-S     Turn Left
+677        2,0            West            N-S     Wait at Light
+678        2,0            West            E-W     Turn Left
+679        2,0            South            N-S     Turn Left
+680        2,0            East            E-W     Go Straight
+683        3,0            East            N-S     Turn Right
+683        3,0            East            N-S     Turn Left
+683        3,0            East            N-S     Turn Left
+683        3,0            East            N-S     Turn Right
+683        3,0            East            N-S     Turn Left
+683        3,0            East            N-S     Turn Left
+683        3,0            East            N-S     Wait at Light
+684        3,0            East            E-W     Turn Right
+685        3,0            South            N-S     Go Straight
+698        3,0            South            E-W     Turn Left
+698        3,0            South            E-W     Turn Left
+698        3,0            South            E-W     Turn Left
+698        3,0            South            E-W     Turn Left
+698        3,0            South            E-W     Turn Left
+698        3,0            South            E-W     Turn Right
+698        3,0            South            E-W     Turn Right
+698        3,0            South            E-W     Wait at Light
+699        3,0            South            N-S     Go Straight
+712        3,0            South            E-W     Wait at Light
+713        3,0            South            N-S     Go Straight
+726        3,0            South            E-W     Turn Left
+726        3,0            South            E-W     Turn Left
+726        3,0            South            E-W     Go Straight
+726        3,0            South            E-W     Go Straight
+726        3,0            South            E-W     Go Straight
+726        3,0            South            E-W     Turn Right
+726        3,0            South            E-W     Go Straight
+726        3,0            South            E-W     Turn Right
+726        3,0            South            E-W     Go Straight
+726        3,0            South            E-W     Turn Right
+726        3,0            South            E-W     Turn Right
+726        3,0            South            E-W     Turn Right
+726        3,0            South            E-W     Wait at Light
+727        3,0            South            N-S     Turn Left
+728        3,0            East            E-W     Wait at Light
+729        3,0            East            N-S     Turn Left
+729        3,0            East            N-S     Wait at Light
+730        3,0            East            E-W     Go Straight
+733        4,0            East            N-S     Wait at Light
+734        4,0            East            E-W     Turn Right
+735        4,0            South            N-S     Turn Left
+736        4,0            East            E-W     Wait at Light
+737        4,0            East            N-S     Wait at Light
+738        4,0            East            E-W     Go Straight
+741        5,0            East            N-S     Wait at Light
+742        5,0            East            E-W     Turn Right
+743        5,0            South            N-S     Go Straight
+756        5,0            South            E-W     Wait at Light
+757        5,0            South            N-S     Turn Right
+758        5,0            West            E-W     Go Straight
+761        4,0            West            N-S     Go Straight
+761        4,0            West            N-S     Go Straight
+761        4,0            West            N-S     Turn Right
+761        4,0            West            N-S     Turn Right
+761        4,0            West            N-S     Turn Right
+761        4,0            West            N-S     Go Straight
+761        4,0            West            N-S     Wait at Light
+762        4,0            West            E-W     Wait at Light
+763        4,0            West            N-S     Turn Right
+763        4,0            West            N-S     Wait at Light
+764        4,0            West            E-W     Turn Right
+765        4,0            North            N-S     Wait at Light
+766        4,0            North            E-W     Wait at Light
+767        4,0            North            N-S     Wait at Light
+768        4,0            North            E-W     Turn Right
+768        4,0            North            E-W     Turn Left
+768        4,0            North            E-W     Go Straight
+768        4,0            North            E-W     Turn Left
+768        4,0            North            E-W     Wait at Light
+769        4,0            North            N-S     Turn Left
+770        4,0            West            E-W     Turn Left
+771        4,0            South            N-S     Wait at Light
+772        4,0            South            E-W     Wait at Light
+773        4,0            South            N-S     Turn Left
+774        4,0            East            E-W     Go Straight
+777        5,0            East            N-S     Turn Right
+777        5,0            East            N-S     Go Straight
+777        5,0            East            N-S     Go Straight
+777        5,0            East            N-S     Turn Left
+777        5,0            East            N-S     Turn Left
+777        5,0            East            N-S     Turn Right
+777        5,0            East            N-S     Turn Left
+777        5,0            East            N-S     Turn Left
+777        5,0            East            N-S     Go Straight
+777        5,0            East            N-S     Go Straight
+777        5,0            East            N-S     Turn Right
+777        5,0            East            N-S     Wait at Light
+778        5,0            East            E-W     Wait at Light
+779        5,0            East            N-S     Wait at Light
+780        5,0            East            E-W     Turn Right
+781        5,0            South            N-S     Go Straight
+794        5,0            South            E-W     Go Straight
+794        5,0            South            E-W     Go Straight
+794        5,0            South            E-W     Turn Right
+794        5,0            South            E-W     Turn Right
+794        5,0            South            E-W     Wait at Light
+795        5,0            South            N-S     Turn Right
+796        5,0            West            E-W     Turn Left
+797        5,0            South            N-S     Wait at Light
+798        5,0            South            E-W     Wait at Light
+799        5,0            South            N-S     Wait at Light
+800        5,0            South            E-W     Turn Right
+800        5,0            South            E-W     Wait at Light
+801        5,0            South            N-S     Wait at Light
+802        5,0            South            E-W     Turn Left
+802        5,0            South            E-W     Turn Right
+802        5,0            South            E-W     Go Straight
+802        5,0            South            E-W     Go Straight
+802        5,0            South            E-W     Wait at Light
+803        5,0            South            N-S     Turn Right
+804        5,0            West            E-W     Turn Left
+805        5,0            South            N-S     Turn Left
+806        5,0            East            E-W     Turn Right
+807        5,0            South            N-S     Turn Right
+808        5,0            West            E-W     Turn Left
+809        5,0            South            N-S     Turn Left
+810        5,0            East            E-W     Wait at Light
+811        5,0            East            N-S     Turn Right
+811        5,0            East            N-S     Turn Left
+811        5,0            East            N-S     Wait at Light
+812        5,0            East            E-W     Wait at Light
+813        5,0            East            N-S     Wait at Light
+814        5,0            East            E-W     Turn Left
+815        5,0            North            N-S     Turn Right
+816        5,0            East            E-W     Turn Right
+817        5,0            South            N-S     Wait at Light
+818        5,0            South            E-W     Go Straight
+818        5,0            South            E-W     Wait at Light
+819        5,0            South            N-S     Go Straight
+832        5,0            South            E-W     Go Straight
+832        5,0            South            E-W     Turn Right
+832        5,0            South            E-W     Turn Right
+832        5,0            South            E-W     Turn Right
+832        5,0            South            E-W     Go Straight
+832        5,0            South            E-W     Turn Right
+832        5,0            South            E-W     Go Straight
+832        5,0            South            E-W     Go Straight
+832        5,0            South            E-W     Turn Right
+832        5,0            South            E-W     Wait at Light
+833        5,0            South            N-S     Turn Left
+834        5,0            East            E-W     Wait at Light
+835        5,0            East            N-S     Turn Right
+835        5,0            East            N-S     Turn Left
+835        5,0            East            N-S     Wait at Light
+836        5,0            East            E-W     Go Straight
+839        6,0            East            N-S     Wait at Light
+840        6,0            East            E-W     Go Straight
+843        7,0            East            N-S     Wait at Light
+844        7,0            East            E-W     Turn Left
+845        7,0            North            N-S     Wait at Light
+846        7,0            North            E-W     Turn Left
+846        7,0            North            E-W     Turn Left
+846        7,0            North            E-W     Turn Left
+846        7,0            North            E-W     Turn Left
+846        7,0            North            E-W     Go Straight
+846        7,0            North            E-W     Wait at Light
+847        7,0            North            N-S     Turn Left
+848        7,0            West            E-W     Turn Right
+849        7,0            North            N-S     Go Straight
+852        7,1            North            E-W     Wait at Light
+853        7,1            North            N-S     Turn Right
+854        7,1            East            E-W     Turn Left
+855        7,1            North            N-S     Wait at Light
+856        7,1            North            E-W     Wait at Light
+857        7,1            North            N-S     Turn Right
+858        7,1            East            E-W     Wait at Light
+859        7,1            East            N-S     Turn Right
+859        7,1            East            N-S     Go Straight
+859        7,1            East            N-S     Go Straight
+859        7,1            East            N-S     Turn Left
+859        7,1            East            N-S     Turn Left
+859        7,1            East            N-S     Go Straight
+859        7,1            East            N-S     Turn Right
+859        7,1            East            N-S     Go Straight
+859        7,1            East            N-S     Go Straight
+859        7,1            East            N-S     Go Straight
+859        7,1            East            N-S     Wait at Light
+860        7,1            East            E-W     Turn Right
+861        7,1            South            N-S     Wait at Light
+862        7,1            South            E-W     Go Straight
+862        7,1            South            E-W     Go Straight
+862        7,1            South            E-W     Turn Left
+862        7,1            South            E-W     Turn Right
+862        7,1            South            E-W     Turn Right
+862        7,1            South            E-W     Wait at Light
+863        7,1            South            N-S     Turn Right
+864        7,1            West            E-W     Wait at Light
+865        7,1            West            N-S     Turn Right
+865        7,1            West            N-S     Go Straight
+865        7,1            West            N-S     Wait at Light
+866        7,1            West            E-W     Turn Left
+867        7,1            South            N-S     Wait at Light
+868        7,1            South            E-W     Turn Right
+868        7,1            South            E-W     Turn Left
+868        7,1            South            E-W     Turn Right
+868        7,1            South            E-W     Turn Left
+868        7,1            South            E-W     Turn Right
+868        7,1            South            E-W     Turn Right
+868        7,1            South            E-W     Go Straight
+868        7,1            South            E-W     Turn Left
+868        7,1            South            E-W     Wait at Light
+869        7,1            South            N-S     Go Straight
+872        7,0            South            E-W     Turn Right
+872        7,0            South            E-W     Turn Right
+872        7,0            South            E-W     Turn Left
+872        7,0            South            E-W     Go Straight
+872        7,0            South            E-W     Go Straight
+872        7,0            South            E-W     Wait at Light
+873        7,0            South            N-S     Go Straight
+886        7,0            South            E-W     Turn Left
+886        7,0            South            E-W     Turn Left
+886        7,0            South            E-W     Turn Right
+886        7,0            South            E-W     Go Straight
+886        7,0            South            E-W     Wait at Light
+887        7,0            South            N-S     Wait at Light
+888        7,0            South            E-W     Go Straight
+888        7,0            South            E-W     Turn Left
+888        7,0            South            E-W     Turn Left
+888        7,0            South            E-W     Wait at Light
+889        7,0            South            N-S     Go Straight
+902        7,0            South            E-W     Go Straight
+902        7,0            South            E-W     Wait at Light
+903        7,0            South            N-S     Wait at Light
+904        7,0            South            E-W     Turn Left
+904        7,0            South            E-W     Turn Left
+904        7,0            South            E-W     Go Straight
+904        7,0            South            E-W     Turn Right
+904        7,0            South            E-W     Turn Left
+904        7,0            South            E-W     Go Straight
+904        7,0            South            E-W     Turn Right
+904        7,0            South            E-W     Turn Right
+904        7,0            South            E-W     Turn Left
+904        7,0            South            E-W     Wait at Light
+905        7,0            South            N-S     Turn Right
+906        7,0            West            E-W     Go Straight
+909        6,0            West            N-S     Turn Left
+909        6,0            West            N-S     Go Straight
+909        6,0            West            N-S     Wait at Light
+910        6,0            West            E-W     Wait at Light
+911        6,0            West            N-S     Go Straight
+911        6,0            West            N-S     Go Straight
+911        6,0            West            N-S     Wait at Light
+912        6,0            West            E-W     Go Straight
+915        5,0            West            N-S     Turn Left
+915        5,0            West            N-S     Wait at Light
+916        5,0            West            E-W     Turn Right
+917        5,0            North            N-S     Go Straight
+920        5,1            North            E-W     Turn Left
+920        5,1            North            E-W     Turn Left
+920        5,1            North            E-W     Turn Right
+920        5,1            North            E-W     Go Straight
+920        5,1            North            E-W     Wait at Light
+921        5,1            North            N-S     Turn Right
+922        5,1            East            E-W     Turn Right
+923        5,1            South            N-S     Turn Left
+924        5,1            East            E-W     Wait at Light
+925        5,1            East            N-S     Turn Left
+925        5,1            East            N-S     Wait at Light
+926        5,1            East            E-W     Turn Left
+927        5,1            North            N-S     Wait at Light
+928        5,1            North            E-W     Turn Right
+928        5,1            North            E-W     Wait at Light
+929        5,1            North            N-S     Turn Right
+930        5,1            East            E-W     Wait at Light
+931        5,1            East            N-S     Turn Right
+931        5,1            East            N-S     Turn Left
+931        5,1            East            N-S     Wait at Light
+932        5,1            East            E-W     Turn Left
+933        5,1            North            N-S     Go Straight
+936        5,2            North            E-W     Turn Left
+936        5,2            North            E-W     Go Straight
+936        5,2            North            E-W     Turn Right
+936        5,2            North            E-W     Turn Right
+936        5,2            North            E-W     Turn Right
+936        5,2            North            E-W     Wait at Light
+937        5,2            North            N-S     Go Straight
+940        5,3            North            E-W     Turn Left
+940        5,3            North            E-W     Go Straight
+940        5,3            North            E-W     Wait at Light
+941        5,3            North            N-S     Wait at Light
+942        5,3            North            E-W     Turn Right
+942        5,3            North            E-W     Turn Left
+942        5,3            North            E-W     Turn Right
+942        5,3            North            E-W     Wait at Light
+943        5,3            North            N-S     Turn Right
+944        5,3            East            E-W     Go Straight
+947        6,3            East            N-S     Wait at Light
+948        6,3            East            E-W     Go Straight
+951        7,3            East            N-S     Go Straight
+951        7,3            East            N-S     Wait at Light
+952        7,3            East            E-W     Go Straight
+955        8,3            East            N-S     Turn Left
+955        8,3            East            N-S     Wait at Light
+956        8,3            East            E-W     Wait at Light
+957        8,3            East            N-S     Turn Left
+957        8,3            East            N-S     Turn Left
+957        8,3            East            N-S     Turn Left
+957        8,3            East            N-S     Turn Right
+957        8,3            East            N-S     Go Straight
+957        8,3            East            N-S     Wait at Light
+958        8,3            East            E-W     Go Straight
+961        9,3            East            N-S     Turn Left
+961        9,3            East            N-S     Turn Right
+961        9,3            East            N-S     Turn Right
+961        9,3            East            N-S     Turn Left
+961        9,3            East            N-S     Turn Left
+961        9,3            East            N-S     Wait at Light
+962        9,3            East            E-W     Wait at Light
+963        9,3            East            N-S     Go Straight
+963        9,3            East            N-S     Go Straight
+963        9,3            East            N-S     Turn Right
+963        9,3            East            N-S     Turn Right
+963        9,3            East            N-S     Wait at Light
+964        9,3            East            E-W     Go Straight
+967        10,3            East            N-S     Wait at Light
+968        10,3            East            E-W     Go Straight
+981        10,3            East            N-S     Turn Left
+981        10,3            East            N-S     Wait at Light
+982        10,3            East            E-W     Turn Left
+983        10,3            North            N-S     Turn Left
+984        10,3            West            E-W     Wait at Light
+985        10,3            West            N-S     Go Straight
+985        10,3            West            N-S     Wait at Light
+986        10,3            West            E-W     Wait at Light
+987        10,3            West            N-S     Go Straight
+987        10,3            West            N-S     Turn Left
+987        10,3            West            N-S     Turn Right
+987        10,3            West            N-S     Go Straight
+987        10,3            West            N-S     Go Straight
+987        10,3            West            N-S     Turn Left
+987        10,3            West            N-S     Wait at Light
+988        10,3            West            E-W     Wait at Light
+989        10,3            West            N-S     Go Straight
+989        10,3            West            N-S     Turn Left
+989        10,3            West            N-S     Turn Right
+989        10,3            West            N-S     Wait at Light
+990        10,3            West            E-W     Turn Left
+991        10,3            South            N-S     Turn Left
+992        10,3            East            E-W     Go Straight
+1005        10,3            East            N-S     Turn Left
+1005        10,3            East            N-S     Wait at Light
+1006        10,3            East            E-W     Turn Right
+1007        10,3            South            N-S     Turn Right
+1008        10,3            West            E-W     Wait at Light
+1009        10,3            West            N-S     Go Straight
+1009        10,3            West            N-S     Turn Right
+1009        10,3            West            N-S     Turn Right
+1009        10,3            West            N-S     Go Straight
+1009        10,3            West            N-S     Wait at Light
+1010        10,3            West            E-W     Wait at Light
+1011        10,3            West            N-S     Wait at Light
+1012        10,3            West            E-W     Turn Left
+1013        10,3            South            N-S     Turn Right
+1014        10,3            West            E-W     Go Straight
+1017        9,3            West            N-S     Turn Left
+1017        9,3            West            N-S     Turn Right
+1017        9,3            West            N-S     Wait at Light
+1018        9,3            West            E-W     Turn Right
+1019        9,3            North            N-S     Turn Right
+1020        9,3            East            E-W     Turn Right
+1021        9,3            South            N-S     Wait at Light
+1022        9,3            South            E-W     Turn Right
+1022        9,3            South            E-W     Turn Left
+1022        9,3            South            E-W     Turn Left
+1022        9,3            South            E-W     Wait at Light
+1023        9,3            South            N-S     Wait at Light
+1024        9,3            South            E-W     Go Straight
+1024        9,3            South            E-W     Go Straight
+1024        9,3            South            E-W     Go Straight
+1024        9,3            South            E-W     Go Straight
+1024        9,3            South            E-W     Turn Right
+1024        9,3            South            E-W     Wait at Light
+1025        9,3            South            N-S     Turn Left
+1026        9,3            East            E-W     Turn Right
+1027        9,3            South            N-S     Wait at Light
+1028        9,3            South            E-W     Turn Right
+1028        9,3            South            E-W     Wait at Light
+1029        9,3            South            N-S     Go Straight
+1032        9,2            South            E-W     Go Straight
+1032        9,2            South            E-W     Go Straight
+1032        9,2            South            E-W     Turn Left
+1032        9,2            South            E-W     Turn Left
+1032        9,2            South            E-W     Wait at Light
+1033        9,2            South            N-S     Go Straight
+1036        9,1            South            E-W     Wait at Light
+1037        9,1            South            N-S     Turn Right
+1038        9,1            West            E-W     Go Straight
+1041        8,1            West            N-S     Turn Left
+1041        8,1            West            N-S     Go Straight
+1041        8,1            West            N-S     Wait at Light
+1042        8,1            West            E-W     Turn Right
+1043        8,1            North            N-S     Turn Right
+1044        8,1            East            E-W     Go Straight
+1047        9,1            East            N-S     Turn Right
+1047        9,1            East            N-S     Turn Right
+1047        9,1            East            N-S     Turn Left
+1047        9,1            East            N-S     Go Straight
+1047        9,1            East            N-S     Wait at Light
+1048        9,1            East            E-W     Wait at Light
+1049        9,1            East            N-S     Wait at Light
+1050        9,1            East            E-W     Turn Left
+1051        9,1            North            N-S     Turn Left
+1052        9,1            West            E-W     Go Straight
+1055        8,1            West            N-S     Turn Right
+1055        8,1            West            N-S     Turn Left
+1055        8,1            West            N-S     Turn Left
+1055        8,1            West            N-S     Go Straight
+1055        8,1            West            N-S     Turn Left
+1055        8,1            West            N-S     Turn Left
+1055        8,1            West            N-S     Turn Left
+1055        8,1            West            N-S     Turn Left
+1055        8,1            West            N-S     Go Straight
+1055        8,1            West            N-S     Wait at Light
+1056        8,1            West            E-W     Go Straight
+1059        7,1            West            N-S     Go Straight
+1059        7,1            West            N-S     Turn Left
+1059        7,1            West            N-S     Turn Right
+1059        7,1            West            N-S     Turn Left
+1059        7,1            West            N-S     Turn Right
+1059        7,1            West            N-S     Turn Right
+1059        7,1            West            N-S     Wait at Light
+1060        7,1            West            E-W     Turn Right
+1061        7,1            North            N-S     Turn Right
+1062        7,1            East            E-W     Wait at Light
+1063        7,1            East            N-S     Turn Right
+1063        7,1            East            N-S     Wait at Light
+1064        7,1            East            E-W     Go Straight
+1067        8,1            East            N-S     Go Straight
+1067        8,1            East            N-S     Wait at Light
+1068        8,1            East            E-W     Turn Left
+1069        8,1            North            N-S     Wait at Light
+1070        8,1            North            E-W     Turn Left
+1070        8,1            North            E-W     Go Straight
+1070        8,1            North            E-W     Turn Left
+1070        8,1            North            E-W     Wait at Light
+1071        8,1            North            N-S     Turn Left
+1072        8,1            West            E-W     Turn Left
+1073        8,1            South            N-S     Turn Left
+1074        8,1            East            E-W     Turn Right
+1075        8,1            South            N-S     Go Straight
+1078        8,0            South            E-W     Go Straight
+1078        8,0            South            E-W     Go Straight
+1078        8,0            South            E-W     Wait at Light
+1079        8,0            South            N-S     Turn Left
+1080        8,0            East            E-W     Turn Right
+1081        8,0            South            N-S     Wait at Light
+1082        8,0            South            E-W     Turn Right
+1082        8,0            South            E-W     Wait at Light
+1083        8,0            South            N-S     Go Straight
+1096        8,0            South            E-W     Wait at Light
+1097        8,0            South            N-S     Go Straight
+1110        8,0            South            E-W     Go Straight
+1110        8,0            South            E-W     Turn Right
+1110        8,0            South            E-W     Go Straight
+1110        8,0            South            E-W     Turn Left
+1110        8,0            South            E-W     Go Straight
+1110        8,0            South            E-W     Wait at Light
+1111        8,0            South            N-S     Go Straight
+1124        8,0            South            E-W     Turn Right
+1124        8,0            South            E-W     Turn Left
+1124        8,0            South            E-W     Turn Right
+1124        8,0            South            E-W     Go Straight
+1124        8,0            South            E-W     Wait at Light
+1125        8,0            South            N-S     Turn Left
+1126        8,0            East            E-W     Turn Left
+1127        8,0            North            N-S     Wait at Light
+1128        8,0            North            E-W     Go Straight
+1128        8,0            North            E-W     Turn Left
+1128        8,0            North            E-W     Go Straight
+1128        8,0            North            E-W     Turn Right
+1128        8,0            North            E-W     Wait at Light
+1129        8,0            North            N-S     Turn Right
+1130        8,0            East            E-W     Go Straight
+1133        9,0            East            N-S     Turn Right
+1133        9,0            East            N-S     Wait at Light
+1134        9,0            East            E-W     Go Straight
+1137        10,0            East            N-S     Turn Right
+1137        10,0            East            N-S     Turn Left
+1137        10,0            East            N-S     Turn Left
+1137        10,0            East            N-S     Turn Right
+1137        10,0            East            N-S     Wait at Light
+1138        10,0            East            E-W     Go Straight
+1151        10,0            East            N-S     Turn Left
+1151        10,0            East            N-S     Turn Left
+1151        10,0            East            N-S     Go Straight
+1151        10,0            East            N-S     Wait at Light
+1152        10,0            East            E-W     Turn Right
+1153        10,0            South            N-S     Turn Right
+1154        10,0            West            E-W     Turn Right
+1155        10,0            North            N-S     Turn Left
+1156        10,0            West            E-W     Turn Left
+1157        10,0            South            N-S     Wait at Light
+1158        10,0            South            E-W     Go Straight
+1158        10,0            South            E-W     Wait at Light
+1159        10,0            South            N-S     Wait at Light
+1160        10,0            South            E-W     Wait at Light
+1161        10,0            South            N-S     Go Straight
+1174        10,0            South            E-W     Go Straight
+1174        10,0            South            E-W     Go Straight
+1174        10,0            South            E-W     Go Straight
+1174        10,0            South            E-W     Turn Right
+1174        10,0            South            E-W     Turn Left
+1174        10,0            South            E-W     Wait at Light
+1175        10,0            South            N-S     Go Straight
+1188        10,0            South            E-W     Wait at Light
+1189        10,0            South            N-S     Turn Right
+1190        10,0            West            E-W     Turn Right
+1191        10,0            North            N-S     Turn Left
+1192        10,0            West            E-W     Go Straight
+1195        9,0            West            N-S     Wait at Light
+1196        9,0            West            E-W     Turn Left
+1197        9,0            South            N-S     Turn Left
+1198        9,0            East            E-W     Turn Right
+1199        9,0            South            N-S     Wait at Light
+1200        9,0            South            E-W     Go Straight
+1200        9,0            South            E-W     Go Straight
+1200        9,0            South            E-W     Go Straight
+1200        9,0            South            E-W     Turn Left
+1200        9,0            South            E-W     Turn Left
+1200        9,0            South            E-W     Turn Right
+1200        9,0            South            E-W     Turn Right
+1200        9,0            South            E-W     Turn Right
+1200        9,0            South            E-W     Wait at Light
+1201        9,0            South            N-S     Wait at Light
+1202        9,0            South            E-W     Turn Left
+1202        9,0            South            E-W     Turn Left
+1202        9,0            South            E-W     Go Straight
+1202        9,0            South            E-W     Turn Left
+1202        9,0            South            E-W     Wait at Light
+1203        9,0            South            N-S     Turn Left
+1204        9,0            East            E-W     Go Straight
+1207        10,0            East            N-S     Turn Left
+1207        10,0            East            N-S     Turn Right
+1207        10,0            East            N-S     Wait at Light
+1208        10,0            East            E-W     Wait at Light
+1209        10,0            East            N-S     Wait at Light
+1210        10,0            East            E-W     Turn Right
+1211        10,0            South            N-S     Go Straight
+1224        10,0            South            E-W     Turn Left
+1224        10,0            South            E-W     Turn Left
+1224        10,0            South            E-W     Turn Left
+1224        10,0            South            E-W     Turn Right
+1224        10,0            South            E-W     Turn Left
+1224        10,0            South            E-W     Wait at Light
+1225        10,0            South            N-S     Go Straight
+1238        10,0            South            E-W     Turn Right
+1238        10,0            South            E-W     Go Straight
+1238        10,0            South            E-W     Turn Left
+1238        10,0            South            E-W     Go Straight
+1238        10,0            South            E-W     Turn Left
+1238        10,0            South            E-W     Turn Left
+1238        10,0            South            E-W     Turn Right
+1238        10,0            South            E-W     Wait at Light
+1239        10,0            South            N-S     Turn Right
+1240        10,0            West            E-W     Go Straight
+1243        9,0            West            N-S     Go Straight
+1243        9,0            West            N-S     Wait at Light
+1244        9,0            West            E-W     Turn Left
+1245        9,0            South            N-S     Turn Right
+1246        9,0            West            E-W     Wait at Light
+1247        9,0            West            N-S     Turn Right
+1247        9,0            West            N-S     Wait at Light
+1248        9,0            West            E-W     Wait at Light
+1249        9,0            West            N-S     Go Straight
+1249        9,0            West            N-S     Wait at Light
+1250        9,0            West            E-W     Wait at Light
+1251        9,0            West            N-S     Turn Left
+1251        9,0            West            N-S     Turn Right
+1251        9,0            West            N-S     Wait at Light
+1252        9,0            West            E-W     Turn Left
+1253        9,0            South            N-S     Turn Left
+1254        9,0            East            E-W     Wait at Light
+1255        9,0            East            N-S     Go Straight
+1255        9,0            East            N-S     Go Straight
+1255        9,0            East            N-S     Go Straight
+1255        9,0            East            N-S     Wait at Light
+1256        9,0            East            E-W     Turn Right
+1257        9,0            South            N-S     Turn Right
+1258        9,0            West            E-W     Turn Right
+1259        9,0            North            N-S     Wait at Light
+1260        9,0            North            E-W     Turn Left
+1260        9,0            North            E-W     Turn Right
+1260        9,0            North            E-W     Wait at Light
+1261        9,0            North            N-S     Wait at Light
+1262        9,0            North            E-W     Go Straight
+1262        9,0            North            E-W     Turn Right
+1262        9,0            North            E-W     Go Straight
+1262        9,0            North            E-W     Wait at Light
+1263        9,0            North            N-S     Wait at Light
+1264        9,0            North            E-W     Wait at Light
+1265        9,0            North            N-S     Go Straight
+1268        9,1            North            E-W     Go Straight
+1268        9,1            North            E-W     Go Straight
+1268        9,1            North            E-W     Go Straight
+1268        9,1            North            E-W     Turn Left
+1268        9,1            North            E-W     Wait at Light
+1269        9,1            North            N-S     Go Straight
+1272        9,2            North            E-W     Turn Left
+1272        9,2            North            E-W     Wait at Light
+1273        9,2            North            N-S     Wait at Light
+1274        9,2            North            E-W     Go Straight
+1274        9,2            North            E-W     Go Straight
+1274        9,2            North            E-W     Wait at Light
+1275        9,2            North            N-S     Turn Left
+1276        9,2            West            E-W     Go Straight
+1279        8,2            West            N-S     Turn Left
+1279        8,2            West            N-S     Wait at Light
+1280        8,2            West            E-W     Turn Right
+1281        8,2            North            N-S     Go Straight
+1284        8,3            North            E-W     Wait at Light
+1285        8,3            North            N-S     Turn Right
+1286        8,3            East            E-W     Go Straight
+1289        9,3            East            N-S     Turn Left
+1289        9,3            East            N-S     Turn Left
+1289        9,3            East            N-S     Wait at Light
+1290        9,3            East            E-W     Wait at Light
+1291        9,3            East            N-S     Wait at Light
+1292        9,3            East            E-W     Turn Right
+1293        9,3            South            N-S     Wait at Light
+1294        9,3            South            E-W     Turn Left
+1294        9,3            South            E-W     Turn Left
+1294        9,3            South            E-W     Wait at Light
+1295        9,3            South            N-S     Go Straight
+1298        9,2            South            E-W     Go Straight
+1298        9,2            South            E-W     Turn Left
+1298        9,2            South            E-W     Wait at Light
+1299        9,2            South            N-S     Go Straight
+1302        9,1            South            E-W     Turn Right
+1302        9,1            South            E-W     Go Straight
+1302        9,1            South            E-W     Turn Left
+1302        9,1            South            E-W     Go Straight
+1302        9,1            South            E-W     Turn Left
+1302        9,1            South            E-W     Turn Right
+1302        9,1            South            E-W     Turn Right
+1302        9,1            South            E-W     Turn Right
+1302        9,1            South            E-W     Go Straight
+1302        9,1            South            E-W     Turn Right
+1302        9,1            South            E-W     Turn Left
+1302        9,1            South            E-W     Turn Left
+1302        9,1            South            E-W     Turn Left
+1302        9,1            South            E-W     Turn Left
+1302        9,1            South            E-W     Go Straight
+1302        9,1            South            E-W     Wait at Light
+1303        9,1            South            N-S     Go Straight
+1306        9,0            South            E-W     Turn Left
+1306        9,0            South            E-W     Wait at Light
+1307        9,0            South            N-S     Turn Right
+1308        9,0            West            E-W     Turn Left
+1309        9,0            South            N-S     Turn Right
+1310        9,0            West            E-W     Go Straight
+1313        8,0            West            N-S     Wait at Light
+1314        8,0            West            E-W     Turn Right
+1315        8,0            North            N-S     Go Straight
+1318        8,1            North            E-W     Go Straight
+1318        8,1            North            E-W     Go Straight
+1318        8,1            North            E-W     Go Straight
+1318        8,1            North            E-W     Turn Left
+1318        8,1            North            E-W     Turn Left
+1318        8,1            North            E-W     Wait at Light
+1319        8,1            North            N-S     Go Straight
+1322        8,2            North            E-W     Turn Left
+1322        8,2            North            E-W     Wait at Light
+1323        8,2            North            N-S     Go Straight
+1326        8,3            North            E-W     Go Straight
+1326        8,3            North            E-W     Turn Left
+1326        8,3            North            E-W     Wait at Light
+1327        8,3            North            N-S     Turn Left
+1328        8,3            West            E-W     Wait at Light
+1329        8,3            West            N-S     Turn Right
+1329        8,3            West            N-S     Turn Right
+1329        8,3            West            N-S     Go Straight
+1329        8,3            West            N-S     Turn Left
+1329        8,3            West            N-S     Turn Left
+1329        8,3            West            N-S     Turn Right
+1329        8,3            West            N-S     Go Straight
+1329        8,3            West            N-S     Turn Left
+1329        8,3            West            N-S     Wait at Light
+1330        8,3            West            E-W     Turn Left
+1331        8,3            South            N-S     Turn Left
+1332        8,3            East            E-W     Wait at Light
+1333        8,3            East            N-S     Go Straight
+1333        8,3            East            N-S     Turn Left
+1333        8,3            East            N-S     Turn Left
+1333        8,3            East            N-S     Turn Right
+1333        8,3            East            N-S     Turn Left
+1333        8,3            East            N-S     Turn Right
+1333        8,3            East            N-S     Wait at Light
+1334        8,3            East            E-W     Go Straight
+1337        9,3            East            N-S     Go Straight
+1337        9,3            East            N-S     Go Straight
+1337        9,3            East            N-S     Go Straight
+1337        9,3            East            N-S     Turn Left
+1337        9,3            East            N-S     Turn Left
+1337        9,3            East            N-S     Turn Left
+1337        9,3            East            N-S     Go Straight
+1337        9,3            East            N-S     Turn Right
+1337        9,3            East            N-S     Turn Right
+1337        9,3            East            N-S     Turn Right
+1337        9,3            East            N-S     Turn Left
+1337        9,3            East            N-S     Wait at Light
+1338        9,3            East            E-W     Go Straight
+1341        10,3            East            N-S     Go Straight
+1341        10,3            East            N-S     Turn Left
+1341        10,3            East            N-S     Turn Left
+1341        10,3            East            N-S     Turn Right
+1341        10,3            East            N-S     Turn Left
+1341        10,3            East            N-S     Turn Right
+1341        10,3            East            N-S     Wait at Light
+1342        10,3            East            E-W     Wait at Light
+1343        10,3            East            N-S     Turn Right
+1343        10,3            East            N-S     Go Straight
+1343        10,3            East            N-S     Wait at Light
+1344        10,3            East            E-W     Turn Left
+1345        10,3            North            N-S     Turn Right
+1346        10,3            East            E-W     Wait at Light
+1347        10,3            East            N-S     Go Straight
+1347        10,3            East            N-S     Turn Left
+1347        10,3            East            N-S     Wait at Light
+1348        10,3            East            E-W     Turn Right
+1349        10,3            South            N-S     Turn Left
+1350        10,3            East            E-W     Turn Right
+1351        10,3            South            N-S     Turn Left
+1352        10,3            East            E-W     Turn Left
+1353        10,3            North            N-S     Turn Left
+1354        10,3            West            E-W     Turn Right
+1355        10,3            North            N-S     Turn Left
+1356        10,3            West            E-W     Turn Right
+1357        10,3            North            N-S     Wait at Light
+1358        10,3            North            E-W     Turn Right
+1358        10,3            North            E-W     Wait at Light
+1359        10,3            North            N-S     Turn Left
+1360        10,3            West            E-W     Turn Right
+1361        10,3            North            N-S     Turn Left
+1362        10,3            West            E-W     Turn Right
+1363        10,3            North            N-S     Wait at Light
+1364        10,3            North            E-W     Turn Left
+1364        10,3            North            E-W     Turn Left
+1364        10,3            North            E-W     Wait at Light
+1365        10,3            North            N-S     Wait at Light
+1366        10,3            North            E-W     Wait at Light
+1367        10,3            North            N-S     Go Straight
+1370        10,4            North            E-W     Turn Left
+1370        10,4            North            E-W     Wait at Light
+1371        10,4            North            N-S     Wait at Light
+1372        10,4            North            E-W     Wait at Light
+1373        10,4            North            N-S     Turn Right
+1374        10,4            East            E-W     Wait at Light
+1375        10,4            East            N-S     Turn Left
+1375        10,4            East            N-S     Turn Left
+1375        10,4            East            N-S     Go Straight
+1375        10,4            East            N-S     Turn Left
+1375        10,4            East            N-S     Turn Right
+1375        10,4            East            N-S     Wait at Light
+1376        10,4            East            E-W     Wait at Light
+1377        10,4            East            N-S     Wait at Light
+1378        10,4            East            E-W     Turn Right
+1379        10,4            South            N-S     Turn Left
+1380        10,4            East            E-W     Turn Right
+1381        10,4            South            N-S     Turn Right
+1382        10,4            West            E-W     Go Straight
+1385        9,4            West            N-S     Turn Right
+1385        9,4            West            N-S     Turn Right
+1385        9,4            West            N-S     Turn Right
+1385        9,4            West            N-S     Wait at Light
+1386        9,4            West            E-W     Turn Left
+1387        9,4            South            N-S     Wait at Light
+1388        9,4            South            E-W     Go Straight
+1388        9,4            South            E-W     Go Straight
+1388        9,4            South            E-W     Wait at Light
+1389        9,4            South            N-S     Go Straight
+1392        9,3            South            E-W     Turn Left
+1392        9,3            South            E-W     Go Straight
+1392        9,3            South            E-W     Wait at Light
+1393        9,3            South            N-S     Wait at Light
+1394        9,3            South            E-W     Wait at Light
+1395        9,3            South            N-S     Wait at Light
+1396        9,3            South            E-W     Turn Left
+1396        9,3            South            E-W     Turn Left
+1396        9,3            South            E-W     Turn Left
+1396        9,3            South            E-W     Turn Right
+1396        9,3            South            E-W     Turn Right
+1396        9,3            South            E-W     Turn Right
+1396        9,3            South            E-W     Turn Right
+1396        9,3            South            E-W     Turn Left
+1396        9,3            South            E-W     Turn Left
+1396        9,3            South            E-W     Turn Right
+1396        9,3            South            E-W     Turn Left
+1396        9,3            South            E-W     Go Straight
+1396        9,3            South            E-W     Turn Right
+1396        9,3            South            E-W     Turn Left
+1396        9,3            South            E-W     Turn Right
+1396        9,3            South            E-W     Go Straight
+1396        9,3            South            E-W     Turn Right
+1396        9,3            South            E-W     Turn Left
+1396        9,3            South            E-W     Turn Left
+1396        9,3            South            E-W     Go Straight
+1396        9,3            South            E-W     Turn Right
+1396        9,3            South            E-W     Go Straight
+1396        9,3            South            E-W     Wait at Light
+1397        9,3            South            N-S     Turn Left
+1398        9,3            East            E-W     Turn Left
+1399        9,3            North            N-S     Turn Right
+1400        9,3            East            E-W     Go Straight
+1403        10,3            East            N-S     Turn Left
+1403        10,3            East            N-S     Go Straight
+1403        10,3            East            N-S     Wait at Light
+1404        10,3            East            E-W     Wait at Light
+1405        10,3            East            N-S     Wait at Light
+1406        10,3            East            E-W     Turn Left
+1407        10,3            North            N-S     Turn Left
+1408        10,3            West            E-W     Turn Left
+1409        10,3            South            N-S     Turn Right
+1410        10,3            West            E-W     Turn Right
+1411        10,3            North            N-S     Turn Left
+1412        10,3            West            E-W     Turn Left
+1413        10,3            South            N-S     Go Straight
+1416        10,2            South            E-W     Turn Right
+1416        10,2            South            E-W     Wait at Light
+1417        10,2            South            N-S     Wait at Light
+1418        10,2            South            E-W     Turn Left
+1418        10,2            South            E-W     Turn Left
+1418        10,2            South            E-W     Turn Left
+1418        10,2            South            E-W     Turn Right
+1418        10,2            South            E-W     Turn Left
+1418        10,2            South            E-W     Wait at Light
+1419        10,2            South            N-S     Turn Right
+1420        10,2            West            E-W     Wait at Light
+1421        10,2            West            N-S     Wait at Light
+1422        10,2            West            E-W     Go Straight
+1425        9,2            West            N-S     Wait at Light
+1426        9,2            West            E-W     Turn Left
+1427        9,2            South            N-S     Go Straight
+1430        9,1            South            E-W     Wait at Light
+1431        9,1            South            N-S     Wait at Light
+1432        9,1            South            E-W     Go Straight
+1432        9,1            South            E-W     Wait at Light
+1433        9,1            South            N-S     Turn Right
+1434        9,1            West            E-W     Wait at Light
+1435        9,1            West            N-S     Turn Right
+1435        9,1            West            N-S     Turn Left
+1435        9,1            West            N-S     Go Straight
+1435        9,1            West            N-S     Turn Right
+1435        9,1            West            N-S     Go Straight
+1435        9,1            West            N-S     Turn Left
+1435        9,1            West            N-S     Turn Left
+1435        9,1            West            N-S     Turn Left
+1435        9,1            West            N-S     Turn Right
+1435        9,1            West            N-S     Turn Left
+1435        9,1            West            N-S     Wait at Light
+1436        9,1            West            E-W     Turn Right
+1437        9,1            North            N-S     Wait at Light
+1438        9,1            North            E-W     Wait at Light
+1439        9,1            North            N-S     Turn Left
+1440        9,1            West            E-W     Go Straight
+1443        8,1            West            N-S     Turn Left
+1443        8,1            West            N-S     Go Straight
+1443        8,1            West            N-S     Turn Left
+1443        8,1            West            N-S     Go Straight
+1443        8,1            West            N-S     Turn Left
+1443        8,1            West            N-S     Turn Right
+1443        8,1            West            N-S     Go Straight
+1443        8,1            West            N-S     Turn Left
+1443        8,1            West            N-S     Wait at Light
+1444        8,1            West            E-W     Turn Left
+1445        8,1            South            N-S     Go Straight
+1448        8,0            South            E-W     Go Straight
+1448        8,0            South            E-W     Turn Right
+1448        8,0            South            E-W     Go Straight
+1448        8,0            South            E-W     Turn Right
+1448        8,0            South            E-W     Wait at Light
+1449        8,0            South            N-S     Wait at Light
+1450        8,0            South            E-W     Turn Left
+1450        8,0            South            E-W     Turn Left
+1450        8,0            South            E-W     Turn Right
+1450        8,0            South            E-W     Go Straight
+1450        8,0            South            E-W     Go Straight
+1450        8,0            South            E-W     Turn Left
+1450        8,0            South            E-W     Turn Right
+1450        8,0            South            E-W     Turn Left
+1450        8,0            South            E-W     Go Straight
+1450        8,0            South            E-W     Turn Right
+1450        8,0            South            E-W     Go Straight
+1450        8,0            South            E-W     Turn Left
+1450        8,0            South            E-W     Turn Right
+1450        8,0            South            E-W     Turn Left
+1450        8,0            South            E-W     Turn Right
+1450        8,0            South            E-W     Go Straight
+1450        8,0            South            E-W     Turn Left
+1450        8,0            South            E-W     Turn Right
+1450        8,0            South            E-W     Wait at Light
+1451        8,0            South            N-S     Turn Left
+1452        8,0            East            E-W     Turn Left
+1453        8,0            North            N-S     Wait at Light
+1454        8,0            North            E-W     Turn Right
+1454        8,0            North            E-W     Go Straight
+1454        8,0            North            E-W     Wait at Light
+1455        8,0            North            N-S     Turn Right
+1456        8,0            East            E-W     Turn Left
+1457        8,0            North            N-S     Go Straight
+1460        8,1            North            E-W     Turn Right
+1460        8,1            North            E-W     Turn Left
+1460        8,1            North            E-W     Turn Right
+1460        8,1            North            E-W     Turn Right
+1460        8,1            North            E-W     Turn Right
+1460        8,1            North            E-W     Wait at Light
+1461        8,1            North            N-S     Go Straight
+1464        8,2            North            E-W     Go Straight
+1464        8,2            North            E-W     Wait at Light
+1465        8,2            North            N-S     Go Straight
+1468        8,3            North            E-W     Go Straight
+1468        8,3            North            E-W     Wait at Light
+1469        8,3            North            N-S     Wait at Light
+1470        8,3            North            E-W     Go Straight
+1470        8,3            North            E-W     Turn Right
+1470        8,3            North            E-W     Turn Right
+1470        8,3            North            E-W     Wait at Light
+1471        8,3            North            N-S     Turn Left
+1472        8,3            West            E-W     Turn Left
+1473        8,3            South            N-S     Turn Left
+1474        8,3            East            E-W     Go Straight
+1477        9,3            East            N-S     Wait at Light
+1478        9,3            East            E-W     Wait at Light
+1479        9,3            East            N-S     Wait at Light
+1480        9,3            East            E-W     Wait at Light
+1481        9,3            East            N-S     Turn Left
+1481        9,3            East            N-S     Turn Left
+1481        9,3            East            N-S     Turn Right
+1481        9,3            East            N-S     Turn Left
+1481        9,3            East            N-S     Go Straight
+1481        9,3            East            N-S     Turn Left
+1481        9,3            East            N-S     Turn Left
+1481        9,3            East            N-S     Turn Left
+1481        9,3            East            N-S     Go Straight
+1481        9,3            East            N-S     Wait at Light
+1482        9,3            East            E-W     Turn Right
+1483        9,3            South            N-S     Turn Left
+1484        9,3            East            E-W     Go Straight
+1487        10,3            East            N-S     Go Straight
+1487        10,3            East            N-S     Go Straight
+1487        10,3            East            N-S     Go Straight
+1487        10,3            East            N-S     Wait at Light
+1488        10,3            East            E-W     Wait at Light
+1489        10,3            East            N-S     Wait at Light
+1490        10,3            East            E-W     Turn Right
+1491        10,3            South            N-S     Turn Right
+1492        10,3            West            E-W     Turn Left
+1493        10,3            South            N-S     Turn Left
+1494        10,3            East            E-W     Wait at Light
+1495        10,3            East            N-S     Turn Left
+1495        10,3            East            N-S     Turn Right
+1495        10,3            East            N-S     Turn Right
+1495        10,3            East            N-S     Turn Left
+1495        10,3            East            N-S     Turn Right
+1495        10,3            East            N-S     Go Straight
+1495        10,3            East            N-S     Wait at Light
+1496        10,3            East            E-W     Go Straight
+1509        10,3            East            N-S     Turn Right
+1509        10,3            East            N-S     Turn Left
+1509        10,3            East            N-S     Turn Left
+1509        10,3            East            N-S     Turn Left
+1509        10,3            East            N-S     Go Straight
+1509        10,3            East            N-S     Go Straight
+1509        10,3            East            N-S     Go Straight
+1509        10,3            East            N-S     Turn Right
+1509        10,3            East            N-S     Wait at Light
+1510        10,3            East            E-W     Go Straight
+1523        10,3            East            N-S     Turn Right
+1523        10,3            East            N-S     Wait at Light
+1524        10,3            East            E-W     Turn Right
+1525        10,3            South            N-S     Turn Left
+1526        10,3            East            E-W     Wait at Light
+1527        10,3            East            N-S     Go Straight
+1527        10,3            East            N-S     Wait at Light
+1528        10,3            East            E-W     Go Straight
+1541        10,3            East            N-S     Go Straight
+1541        10,3            East            N-S     Go Straight
+1541        10,3            East            N-S     Go Straight
+1541        10,3            East            N-S     Go Straight
+1541        10,3            East            N-S     Turn Right
+1541        10,3            East            N-S     Wait at Light
+1542        10,3            East            E-W     Go Straight
+1555        10,3            East            N-S     Wait at Light
+1556        10,3            East            E-W     Turn Right
+1557        10,3            South            N-S     Turn Right
+1558        10,3            West            E-W     Turn Right
+1559        10,3            North            N-S     Turn Right
+1560        10,3            East            E-W     Turn Right
+1561        10,3            South            N-S     Turn Right
+1562        10,3            West            E-W     Turn Left
+1563        10,3            South            N-S     Turn Left
+1564        10,3            East            E-W     Turn Left
+1565        10,3            North            N-S     Turn Right
+1566        10,3            East            E-W     Go Straight
+1579        10,3            East            N-S     Wait at Light
+1580        10,3            East            E-W     Go Straight
+1593        10,3            East            N-S     Turn Right
+1593        10,3            East            N-S     Turn Right
+1593        10,3            East            N-S     Turn Right
+1593        10,3            East            N-S     Go Straight
+1593        10,3            East            N-S     Go Straight
+1593        10,3            East            N-S     Wait at Light
+1594        10,3            East            E-W     Turn Right
+1595        10,3            South            N-S     Turn Left
+1596        10,3            East            E-W     Turn Left
+1597        10,3            North            N-S     Turn Left
+1598        10,3            West            E-W     Turn Left
+1599        10,3            South            N-S     Turn Left
+1600        10,3            East            E-W     Turn Right
+1601        10,3            South            N-S     Turn Left
+1602        10,3            East            E-W     Go Straight
+1615        10,3            East            N-S     Wait at Light
+1616        10,3            East            E-W     Turn Left
+1617        10,3            North            N-S     Turn Left
+1618        10,3            West            E-W     Go Straight
+1621        9,3            West            N-S     Turn Left
+1621        9,3            West            N-S     Turn Left
+1621        9,3            West            N-S     Turn Right
+1621        9,3            West            N-S     Wait at Light
+1622        9,3            West            E-W     Go Straight
+1625        8,3            West            N-S     Wait at Light
+1626        8,3            West            E-W     Turn Left
+1627        8,3            South            N-S     Turn Left
+1628        8,3            East            E-W     Wait at Light
+1629        8,3            East            N-S     Go Straight
+1629        8,3            East            N-S     Turn Right
+1629        8,3            East            N-S     Turn Left
+1629        8,3            East            N-S     Wait at Light
+1630        8,3            East            E-W     Wait at Light
+1631        8,3            East            N-S     Go Straight
+1631        8,3            East            N-S     Turn Right
+1631        8,3            East            N-S     Turn Left
+1631        8,3            East            N-S     Turn Left
+1631        8,3            East            N-S     Turn Right
+1631        8,3            East            N-S     Turn Left
+1631        8,3            East            N-S     Turn Left
+1631        8,3            East            N-S     Turn Left
+1631        8,3            East            N-S     Wait at Light
+1632        8,3            East            E-W     Wait at Light
+1633        8,3            East            N-S     Wait at Light
+1634        8,3            East            E-W     Turn Left
+1635        8,3            North            N-S     Go Straight
+1638        8,4            North            E-W     Wait at Light
+1639        8,4            North            N-S     Turn Left
+1640        8,4            West            E-W     Wait at Light
+1641        8,4            West            N-S     Turn Left
+1641        8,4            West            N-S     Wait at Light
+1642        8,4            West            E-W     Turn Right
+1643        8,4            North            N-S     Turn Right
+1644        8,4            East            E-W     Turn Right
+1645        8,4            South            N-S     Wait at Light
+1646        8,4            South            E-W     Go Straight
+1646        8,4            South            E-W     Turn Right
+1646        8,4            South            E-W     Turn Left
+1646        8,4            South            E-W     Wait at Light
+1647        8,4            South            N-S     Turn Left
+1648        8,4            East            E-W     Turn Left
+1649        8,4            North            N-S     Go Straight
+1652        8,5            North            E-W     Go Straight
+1652        8,5            North            E-W     Wait at Light
+1653        8,5            North            N-S     Go Straight
+1656        8,6            North            E-W     Turn Left
+1656        8,6            North            E-W     Turn Left
+1656        8,6            North            E-W     Turn Right
+1656        8,6            North            E-W     Wait at Light
+1657        8,6            North            N-S     Turn Right
+1658        8,6            East            E-W     Turn Right
+1659        8,6            South            N-S     Wait at Light
+1660        8,6            South            E-W     Go Straight
+1660        8,6            South            E-W     Turn Right
+1660        8,6            South            E-W     Turn Right
+1660        8,6            South            E-W     Go Straight
+1660        8,6            South            E-W     Turn Left
+1660        8,6            South            E-W     Go Straight
+1660        8,6            South            E-W     Wait at Light
+1661        8,6            South            N-S     Turn Right
+1662        8,6            West            E-W     Turn Left
+1663        8,6            South            N-S     Turn Left
+1664        8,6            East            E-W     Go Straight
+1667        9,6            East            N-S     Turn Right
+1667        9,6            East            N-S     Turn Right
+1667        9,6            East            N-S     Turn Left
+1667        9,6            East            N-S     Go Straight
+1667        9,6            East            N-S     Turn Right
+1667        9,6            East            N-S     Turn Right
+1667        9,6            East            N-S     Go Straight
+1667        9,6            East            N-S     Turn Left
+1667        9,6            East            N-S     Turn Right
+1667        9,6            East            N-S     Turn Right
+1667        9,6            East            N-S     Wait at Light
+1668        9,6            East            E-W     Turn Left
+1669        9,6            North            N-S     Go Straight
+1672        9,7            North            E-W     Turn Left
+1672        9,7            North            E-W     Turn Left
+1672        9,7            North            E-W     Turn Right
+1672        9,7            North            E-W     Wait at Light
+1673        9,7            North            N-S     Wait at Light
+1674        9,7            North            E-W     Turn Right
+1674        9,7            North            E-W     Turn Left
+1674        9,7            North            E-W     Turn Right
+1674        9,7            North            E-W     Go Straight
+1674        9,7            North            E-W     Turn Left
+1674        9,7            North            E-W     Turn Left
+1674        9,7            North            E-W     Go Straight
+1674        9,7            North            E-W     Wait at Light
+1675        9,7            North            N-S     Turn Left
+1676        9,7            West            E-W     Turn Right
+1677        9,7            North            N-S     Wait at Light
+1678        9,7            North            E-W     Go Straight
+1678        9,7            North            E-W     Go Straight
+1678        9,7            North            E-W     Turn Right
+1678        9,7            North            E-W     Turn Right
+1678        9,7            North            E-W     Go Straight
+1678        9,7            North            E-W     Turn Right
+1678        9,7            North            E-W     Go Straight
+1678        9,7            North            E-W     Go Straight
+1678        9,7            North            E-W     Wait at Light
+1679        9,7            North            N-S     Wait at Light
+1680        9,7            North            E-W     Go Straight
+1680        9,7            North            E-W     Turn Left
+1680        9,7            North            E-W     Wait at Light
+1681        9,7            North            N-S     Turn Left
+1682        9,7            West            E-W     Turn Left
+1683        9,7            South            N-S     Turn Left
+1684        9,7            East            E-W     Turn Right
+1685        9,7            South            N-S     Turn Right
+1686        9,7            West            E-W     Go Straight
+1689        8,7            West            N-S     Turn Left
+1689        8,7            West            N-S     Turn Left
+1689        8,7            West            N-S     Turn Right
+1689        8,7            West            N-S     Turn Left
+1689        8,7            West            N-S     Wait at Light
+1690        8,7            West            E-W     Turn Right
+1691        8,7            North            N-S     Turn Left
+1692        8,7            West            E-W     Wait at Light
+1693        8,7            West            N-S     Turn Left
+1693        8,7            West            N-S     Turn Left
+1693        8,7            West            N-S     Turn Left
+1693        8,7            West            N-S     Go Straight
+1693        8,7            West            N-S     Turn Left
+1693        8,7            West            N-S     Turn Left
+1693        8,7            West            N-S     Turn Right
+1693        8,7            West            N-S     Wait at Light
+1694        8,7            West            E-W     Go Straight
+1697        7,7            West            N-S     Turn Left
+1697        7,7            West            N-S     Turn Left
+1697        7,7            West            N-S     Go Straight
+1697        7,7            West            N-S     Turn Left
+1697        7,7            West            N-S     Turn Left
+1697        7,7            West            N-S     Turn Right
+1697        7,7            West            N-S     Go Straight
+1697        7,7            West            N-S     Turn Left
+1697        7,7            West            N-S     Turn Right
+1697        7,7            West            N-S     Turn Left
+1697        7,7            West            N-S     Wait at Light
+1698        7,7            West            E-W     Turn Right
+1699        7,7            North            N-S     Wait at Light
+1700        7,7            North            E-W     Turn Right
+1700        7,7            North            E-W     Go Straight
+1700        7,7            North            E-W     Go Straight
+1700        7,7            North            E-W     Go Straight
+1700        7,7            North            E-W     Turn Left
+1700        7,7            North            E-W     Turn Right
+1700        7,7            North            E-W     Wait at Light
+1701        7,7            North            N-S     Go Straight
+1704        7,8            North            E-W     Turn Right
+1704        7,8            North            E-W     Turn Right
+1704        7,8            North            E-W     Go Straight
+1704        7,8            North            E-W     Turn Right
+1704        7,8            North            E-W     Wait at Light
+1705        7,8            North            N-S     Turn Left
+1706        7,8            West            E-W     Turn Right
+1707        7,8            North            N-S     Wait at Light
+1708        7,8            North            E-W     Go Straight
+1708        7,8            North            E-W     Wait at Light
+1709        7,8            North            N-S     Go Straight
+1712        7,9            North            E-W     Turn Left
+1712        7,9            North            E-W     Wait at Light
+1713        7,9            North            N-S     Turn Right
+1714        7,9            East            E-W     Wait at Light
+1715        7,9            East            N-S     Turn Left
+1715        7,9            East            N-S     Wait at Light
+1716        7,9            East            E-W     Turn Right
+1717        7,9            South            N-S     Wait at Light
+1718        7,9            South            E-W     Turn Right
+1718        7,9            South            E-W     Go Straight
+1718        7,9            South            E-W     Turn Left
+1718        7,9            South            E-W     Wait at Light
+1719        7,9            South            N-S     Turn Left
+1720        7,9            East            E-W     Turn Right
+1721        7,9            South            N-S     Turn Right
+1722        7,9            West            E-W     Turn Right
+1723        7,9            North            N-S     Turn Left
+1724        7,9            West            E-W     Turn Right
+1725        7,9            North            N-S     Wait at Light
+1726        7,9            North            E-W     Turn Left
+1726        7,9            North            E-W     Wait at Light
+1727        7,9            North            N-S     Go Straight
+1730        7,10            North            E-W     Wait at Light
+1731        7,10            North            N-S     Wait at Light
+1732        7,10            North            E-W     Turn Left
+1732        7,10            North            E-W     Turn Right
+1732        7,10            North            E-W     Wait at Light
+1733        7,10            North            N-S     Wait at Light
+1734        7,10            North            E-W     Turn Left
+1734        7,10            North            E-W     Go Straight
+1734        7,10            North            E-W     Turn Left
+1734        7,10            North            E-W     Go Straight
+1734        7,10            North            E-W     Turn Right
+1734        7,10            North            E-W     Turn Left
+1734        7,10            North            E-W     Turn Right
+1734        7,10            North            E-W     Turn Right
+1734        7,10            North            E-W     Turn Right
+1734        7,10            North            E-W     Turn Right
+1734        7,10            North            E-W     Go Straight
+1734        7,10            North            E-W     Wait at Light
+1735        7,10            North            N-S     Turn Left
+1736        7,10            West            E-W     Turn Left
+1737        7,10            South            N-S     Wait at Light
+1738        7,10            South            E-W     Turn Right
+1738        7,10            South            E-W     Wait at Light
+1739        7,10            South            N-S     Go Straight
+1742        7,9            South            E-W     Turn Left
+1742        7,9            South            E-W     Turn Left
+1742        7,9            South            E-W     Turn Right
+1742        7,9            South            E-W     Turn Right
+1742        7,9            South            E-W     Turn Left
+1742        7,9            South            E-W     Turn Left
+1742        7,9            South            E-W     Go Straight
+1742        7,9            South            E-W     Wait at Light
+1743        7,9            South            N-S     Turn Left
+1744        7,9            East            E-W     Wait at Light
+1745        7,9            East            N-S     Turn Left
+1745        7,9            East            N-S     Turn Left
+1745        7,9            East            N-S     Wait at Light
+1746        7,9            East            E-W     Turn Right
+1747        7,9            South            N-S     Turn Left
+1748        7,9            East            E-W     Turn Left
+1749        7,9            North            N-S     Turn Right
+1750        7,9            East            E-W     Turn Left
+1751        7,9            North            N-S     Turn Right
+1752        7,9            East            E-W     Wait at Light
+1753        7,9            East            N-S     Turn Left
+1753        7,9            East            N-S     Go Straight
+1753        7,9            East            N-S     Wait at Light
+1754        7,9            East            E-W     Turn Right
+1755        7,9            South            N-S     Go Straight
+1758        7,8            South            E-W     Turn Right
+1758        7,8            South            E-W     Turn Right
+1758        7,8            South            E-W     Go Straight
+1758        7,8            South            E-W     Turn Right
+1758        7,8            South            E-W     Wait at Light
+1759        7,8            South            N-S     Wait at Light
+1760        7,8            South            E-W     Wait at Light
+1761        7,8            South            N-S     Turn Right
+1762        7,8            West            E-W     Turn Left
+1763        7,8            South            N-S     Turn Right
+1764        7,8            West            E-W     Turn Left
+1765        7,8            South            N-S     Wait at Light
+1766        7,8            South            E-W     Turn Left
+1766        7,8            South            E-W     Turn Left
+1766        7,8            South            E-W     Turn Left
+1766        7,8            South            E-W     Turn Left
+1766        7,8            South            E-W     Turn Left
+1766        7,8            South            E-W     Turn Right
+1766        7,8            South            E-W     Go Straight
+1766        7,8            South            E-W     Go Straight
+1766        7,8            South            E-W     Turn Right
+1766        7,8            South            E-W     Go Straight
+1766        7,8            South            E-W     Turn Right
+1766        7,8            South            E-W     Wait at Light
+1767        7,8            South            N-S     Turn Left
+1768        7,8            East            E-W     Turn Right
+1769        7,8            South            N-S     Turn Left
+1770        7,8            East            E-W     Turn Right
+1771        7,8            South            N-S     Go Straight
+1774        7,7            South            E-W     Go Straight
+1774        7,7            South            E-W     Turn Left
+1774        7,7            South            E-W     Go Straight
+1774        7,7            South            E-W     Turn Right
+1774        7,7            South            E-W     Turn Left
+1774        7,7            South            E-W     Turn Left
+1774        7,7            South            E-W     Wait at Light
+1775        7,7            South            N-S     Turn Right
+1776        7,7            West            E-W     Turn Right
+1777        7,7            North            N-S     Wait at Light
+1778        7,7            North            E-W     Turn Right
+1778        7,7            North            E-W     Wait at Light
+1779        7,7            North            N-S     Wait at Light
+1780        7,7            North            E-W     Turn Left
+1780        7,7            North            E-W     Turn Left
+1780        7,7            North            E-W     Wait at Light
+1781        7,7            North            N-S     Wait at Light
+1782        7,7            North            E-W     Turn Right
+1782        7,7            North            E-W     Turn Left
+1782        7,7            North            E-W     Wait at Light
+1783        7,7            North            N-S     Turn Right
+1784        7,7            East            E-W     Turn Left
+1785        7,7            North            N-S     Turn Left
+1786        7,7            West            E-W     Wait at Light
+1787        7,7            West            N-S     Turn Left
+1787        7,7            West            N-S     Wait at Light
+1788        7,7            West            E-W     Wait at Light
+1789        7,7            West            N-S     Turn Left
+1789        7,7            West            N-S     Turn Right
+1789        7,7            West            N-S     Turn Right
+1789        7,7            West            N-S     Turn Right
+1789        7,7            West            N-S     Turn Left
+1789        7,7            West            N-S     Wait at Light
+1790        7,7            West            E-W     Wait at Light
+1791        7,7            West            N-S     Turn Right
+1791        7,7            West            N-S     Turn Right
+1791        7,7            West            N-S     Wait at Light
+1792        7,7            West            E-W     Go Straight
+1795        6,7            West            N-S     Wait at Light
+1796        6,7            West            E-W     Turn Right
+1797        6,7            North            N-S     Turn Left
+1798        6,7            West            E-W     Go Straight
+1801        5,7            West            N-S     Wait at Light
+1802        5,7            West            E-W     Turn Right
+1803        5,7            North            N-S     Go Straight
+1806        5,8            North            E-W     Go Straight
+1806        5,8            North            E-W     Go Straight
+1806        5,8            North            E-W     Go Straight
+1806        5,8            North            E-W     Wait at Light
+1807        5,8            North            N-S     Turn Right
+1808        5,8            East            E-W     Wait at Light
+1809        5,8            East            N-S     Turn Left
+1809        5,8            East            N-S     Turn Right
+1809        5,8            East            N-S     Turn Left
+1809        5,8            East            N-S     Turn Left
+1809        5,8            East            N-S     Turn Right
+1809        5,8            East            N-S     Wait at Light
+1810        5,8            East            E-W     Wait at Light
+1811        5,8            East            N-S     Turn Right
+1811        5,8            East            N-S     Turn Left
+1811        5,8            East            N-S     Turn Left
+1811        5,8            East            N-S     Wait at Light
+1812        5,8            East            E-W     Turn Left
+1813        5,8            North            N-S     Turn Right
+1814        5,8            East            E-W     Go Straight
+1817        6,8            East            N-S     Go Straight
+1817        6,8            East            N-S     Turn Right
+1817        6,8            East            N-S     Turn Left
+1817        6,8            East            N-S     Turn Left
+1817        6,8            East            N-S     Turn Left
+1817        6,8            East            N-S     Go Straight
+1817        6,8            East            N-S     Turn Right
+1817        6,8            East            N-S     Turn Right
+1817        6,8            East            N-S     Go Straight
+1817        6,8            East            N-S     Turn Left
+1817        6,8            East            N-S     Turn Right
+1817        6,8            East            N-S     Turn Right
+1817        6,8            East            N-S     Turn Right
+1817        6,8            East            N-S     Turn Left
+1817        6,8            East            N-S     Turn Left
+1817        6,8            East            N-S     Turn Right
+1817        6,8            East            N-S     Wait at Light
+1818        6,8            East            E-W     Go Straight
+1821        7,8            East            N-S     Turn Left
+1821        7,8            East            N-S     Turn Left
+1821        7,8            East            N-S     Turn Right
+1821        7,8            East            N-S     Go Straight
+1821        7,8            East            N-S     Turn Left
+1821        7,8            East            N-S     Wait at Light
+1822        7,8            East            E-W     Turn Right
+1823        7,8            South            N-S     Wait at Light
+1824        7,8            South            E-W     Wait at Light
+1825        7,8            South            N-S     Turn Left
+1826        7,8            East            E-W     Turn Left
+1827        7,8            North            N-S     Turn Left
+1828        7,8            West            E-W     Turn Right
+1829        7,8            North            N-S     Turn Right
+1830        7,8            East            E-W     Turn Right
+1831        7,8            South            N-S     Go Straight
+1834        7,7            South            E-W     Wait at Light
+1835        7,7            South            N-S     Turn Right
+1836        7,7            West            E-W     Go Straight
+1839        6,7            West            N-S     Turn Left
+1839        6,7            West            N-S     Turn Right
+1839        6,7            West            N-S     Turn Right
+1839        6,7            West            N-S     Go Straight
+1839        6,7            West            N-S     Wait at Light
+1840        6,7            West            E-W     Go Straight
+1843        5,7            West            N-S     Turn Left
+1843        5,7            West            N-S     Turn Right
+1843        5,7            West            N-S     Wait at Light
+1844        5,7            West            E-W     Go Straight
+1847        4,7            West            N-S     Wait at Light
+1848        4,7            West            E-W     Go Straight
+1851        3,7            West            N-S     Wait at Light
+1852        3,7            West            E-W     Turn Left
+1853        3,7            South            N-S     Turn Left
+1854        3,7            East            E-W     Turn Left
+1855        3,7            North            N-S     Turn Left
+1856        3,7            West            E-W     Turn Left
+1857        3,7            South            N-S     Wait at Light
+1858        3,7            South            E-W     Turn Right
+1858        3,7            South            E-W     Go Straight
+1858        3,7            South            E-W     Go Straight
+1858        3,7            South            E-W     Turn Right
+1858        3,7            South            E-W     Wait at Light
+1859        3,7            South            N-S     Turn Right
+1860        3,7            West            E-W     Turn Left
+1861        3,7            South            N-S     Wait at Light
+1862        3,7            South            E-W     Turn Left
+1862        3,7            South            E-W     Turn Left
+1862        3,7            South            E-W     Turn Left
+1862        3,7            South            E-W     Go Straight
+1862        3,7            South            E-W     Wait at Light
+1863        3,7            South            N-S     Turn Right
+1864        3,7            West            E-W     Wait at Light
+1865        3,7            West            N-S     Turn Left
+1865        3,7            West            N-S     Turn Right
+1865        3,7            West            N-S     Go Straight
+1865        3,7            West            N-S     Turn Right
+1865        3,7            West            N-S     Wait at Light
+1866        3,7            West            E-W     Turn Left
+1867        3,7            South            N-S     Wait at Light
+1868        3,7            South            E-W     Turn Left
+1868        3,7            South            E-W     Go Straight
+1868        3,7            South            E-W     Turn Right
+1868        3,7            South            E-W     Go Straight
+1868        3,7            South            E-W     Turn Right
+1868        3,7            South            E-W     Go Straight
+1868        3,7            South            E-W     Go Straight
+1868        3,7            South            E-W     Turn Right
+1868        3,7            South            E-W     Turn Left
+1868        3,7            South            E-W     Turn Left
+1868        3,7            South            E-W     Turn Left
+1868        3,7            South            E-W     Go Straight
+1868        3,7            South            E-W     Turn Left
+1868        3,7            South            E-W     Go Straight
+1868        3,7            South            E-W     Go Straight
+1868        3,7            South            E-W     Turn Right
+1868        3,7            South            E-W     Turn Right
+1868        3,7            South            E-W     Go Straight
+1868        3,7            South            E-W     Turn Left
+1868        3,7            South            E-W     Go Straight
+1868        3,7            South            E-W     Wait at Light
+1869        3,7            South            N-S     Turn Right
+1870        3,7            West            E-W     Turn Right
+1871        3,7            North            N-S     Go Straight
+1874        3,8            North            E-W     Go Straight
+1874        3,8            North            E-W     Go Straight
+1874        3,8            North            E-W     Go Straight
+1874        3,8            North            E-W     Turn Left
+1874        3,8            North            E-W     Turn Left
+1874        3,8            North            E-W     Wait at Light
+1875        3,8            North            N-S     Turn Left
+1876        3,8            West            E-W     Turn Left
+1877        3,8            South            N-S     Turn Left
+1878        3,8            East            E-W     Wait at Light
+1879        3,8            East            N-S     Turn Left
+1879        3,8            East            N-S     Go Straight
+1879        3,8            East            N-S     Go Straight
+1879        3,8            East            N-S     Turn Left
+1879        3,8            East            N-S     Turn Right
+1879        3,8            East            N-S     Turn Left
+1879        3,8            East            N-S     Turn Left
+1879        3,8            East            N-S     Wait at Light
+1880        3,8            East            E-W     Wait at Light
+1881        3,8            East            N-S     Wait at Light
+1882        3,8            East            E-W     Wait at Light
+1883        3,8            East            N-S     Turn Right
+1883        3,8            East            N-S     Turn Left
+1883        3,8            East            N-S     Turn Right
+1883        3,8            East            N-S     Go Straight
+1883        3,8            East            N-S     Turn Left
+1883        3,8            East            N-S     Turn Left
+1883        3,8            East            N-S     Wait at Light
+1884        3,8            East            E-W     Turn Right
+1885        3,8            South            N-S     Wait at Light
+1886        3,8            South            E-W     Turn Left
+1886        3,8            South            E-W     Turn Right
+1886        3,8            South            E-W     Wait at Light
+1887        3,8            South            N-S     Go Straight
+1890        3,7            South            E-W     Go Straight
+1890        3,7            South            E-W     Turn Right
+1890        3,7            South            E-W     Turn Right
+1890        3,7            South            E-W     Turn Right
+1890        3,7            South            E-W     Turn Right
+1890        3,7            South            E-W     Go Straight
+1890        3,7            South            E-W     Go Straight
+1890        3,7            South            E-W     Wait at Light
+1891        3,7            South            N-S     Wait at Light
+1892        3,7            South            E-W     Turn Left
+1892        3,7            South            E-W     Go Straight
+1892        3,7            South            E-W     Go Straight
+1892        3,7            South            E-W     Turn Right
+1892        3,7            South            E-W     Turn Right
+1892        3,7            South            E-W     Turn Left
+1892        3,7            South            E-W     Wait at Light
+1893        3,7            South            N-S     Turn Right
+1894        3,7            West            E-W     Go Straight
+Reached Destination in 1897 minutes with 40 bumps.
